@@ -12,27 +12,38 @@
 */
 
 
+Route::get('/', function(){
+	return View::make('temp.my_first_view');
+});
 
 Route::get('/resume', function(){
-	return 'This is my resume.';
+	return View::make('pages.resume.blade');
 });
 
 Route::get('/portfolio', function(){
-	return 'This is my portfolio.';
+	return View::make('pages.porfolio.blade');
 });
 
-Route::get('/', function(){
-	return 'we are home';
-});
-
-Route::get('/sayHello/{name}', function($name)
+Route::get('/sayhello/{name}', function($name)
 {
-    if ($name == "Jonathan")
+    if ($name == "Chris")
     {
         return Redirect::to('/');
     }
     else
     {
-        return "Hello, $name!";
+    	$data = array(
+			'name'=> $name
+		);
+        return View::make('temp.my_first_view')->with($data);
     }
+});
+
+Route::get('/rolldice/{guess}', function($guess){
+	$random = rand(1,6);
+	$data = [
+		'random' => $random,
+		'guess' => $guess
+	];
+	return View::make('temp.roll_dice')->with($data);
 });
