@@ -11,32 +11,16 @@
 |
 */
 
+Route::resource('posts', 'PostsController');
+
+Route::get('/resume','HomeController@resume_route');
+
+Route::get('/resume','HomeController@portfolio_route');
+
+Route::get('/sayhello/{name}', 'HomeController@sayhello');
 
 Route::get('/', function(){
 	return View::make('temp.my_first_view');
-});
-
-Route::get('/resume', function(){
-	return View::make('pages.resume.blade');
-});
-
-Route::get('/portfolio', function(){
-	return View::make('pages.porfolio.blade');
-});
-
-Route::get('/sayhello/{name}', function($name)
-{
-    if ($name == "Chris")
-    {
-        return Redirect::to('/');
-    }
-    else
-    {
-    	$data = array(
-			'name'=> $name
-		);
-        return View::make('temp.my_first_view')->with($data);
-    }
 });
 
 Route::get('/rolldice/{guess}', function($guess){
@@ -47,3 +31,4 @@ Route::get('/rolldice/{guess}', function($guess){
 	];
 	return View::make('temp.roll_dice')->with($data);
 });
+
