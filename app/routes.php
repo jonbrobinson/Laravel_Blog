@@ -15,7 +15,7 @@ Route::resource('posts', 'PostsController');
 
 Route::get('/resume','HomeController@resume_route');
 
-Route::get('/resume','HomeController@portfolio_route');
+Route::get('/portfolio','HomeController@portfolio_route');
 
 Route::get('/sayhello/{name}', 'HomeController@sayhello');
 
