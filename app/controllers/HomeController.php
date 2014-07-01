@@ -20,4 +20,34 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+	public function sayhello ($name)
+	{
+			if ($name == "Chris")
+		{
+		    return Redirect::to('/');
+		}
+			else
+		{
+			$data = array(
+				'name'=> $name
+			);
+		    return View::make('temp.my_first_view')->with($data);
+		}
+	}
+
+	public function portfolio_route()
+	{
+		$data = [
+		'title' => 'Jonbrobinson Portfolio',
+		'body_id' => 'page-top',
+		'body_class' => 'index'
+		];
+		return View::make('pages.porfolio')->with($data);
+	}
+
+	public function resume_route()
+	{
+		return View::make('pages.resume');
+	}
+
 }
