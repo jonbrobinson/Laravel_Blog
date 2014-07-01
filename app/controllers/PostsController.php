@@ -21,7 +21,7 @@ class PostsController extends \BaseController {
 	 */
 	public function create()
 	{
-		return View::make('posts.create')->with($data);
+		return View::make('posts.create');
 	}
 
 
@@ -33,7 +33,7 @@ class PostsController extends \BaseController {
 	public function store()
 	{
 
-		$validator = Validator::make(Input::all(), Post::$rules)
+		$validator = Validator::make(Input::all(), Post::$rules);
 
 		if ($validator->fails())
 		{
