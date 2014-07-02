@@ -11,7 +11,8 @@
 	@endforeach
 
 	<br>
-	<br>
+	{{ $posts->links() }}
+	<hr>
 
 	{{ link_to_action('PostsController@create', 'New Post') }}
 @stop
