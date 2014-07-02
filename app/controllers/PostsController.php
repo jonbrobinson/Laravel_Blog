@@ -61,7 +61,7 @@ class PostsController extends \BaseController {
 	public function show($id)
 	{
 		$post = Post::find($id);
-		return View::make('posts.show')->with('post',$post);
+		return View::make('posts.show')->with('post', $post);
 	}
 
 	/**
@@ -72,7 +72,8 @@ class PostsController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		return "Show from for editing post: $id";
+		$post = Post::find($id);
+		return View::make('posts.edit')->with('post', $post);
 	}
 
 
@@ -84,7 +85,22 @@ class PostsController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+		$post = Post::find($id);
+
+		$validator = Validator::make(Input::all(), Post::$rules);
+
+		if ($validator->fails())
+		{
+			return Redirect::back()->withInput->withErrors($validator);
+		}
+		else
+		{
+			$post->title = Input::get('title');
+			$post->body = Input::get('body');
+			$post->save();
+
+			return Redirect::action('PostsController@index');
+		}
 	}
 
 
