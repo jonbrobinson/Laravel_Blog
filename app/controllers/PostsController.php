@@ -2,6 +2,15 @@
 
 class PostsController extends \BaseController {
 
+	public function __construct()
+	{
+	    // call base controller constructor
+	    parent::__construct();
+
+	    // run auth filter before all methods on this controller except index and show
+	    $this->beforeFilter('auth.basic', array('except' => array('index', 'show')));
+	}
+	
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -9,7 +18,7 @@ class PostsController extends \BaseController {
 	 */
 	public function index()
 	{
-		$posts = Post::all();
+		$posts = Post::paginate(4);
 		return View::make('posts.index')->with('posts', $posts);
 	}
 
@@ -37,10 +46,16 @@ class PostsController extends \BaseController {
 
 		if ($validator->fails())
 		{
-			return Redirect::back()->withInput->withErrors($validator);
+			// set flash data
+			Session::flash('errorMessage', 'Error: Missing Some Input');
+
+			return Redirect::back()->withInput()->withErrors($validator);
 		}
 		else
 		{
+			// set flash data
+			Session::flash('successMessage', 'Success: New Post Added');
+
 			$post = new Post();
 			$post->title = Input::get('title');
 			$post->body = Input::get('body');
@@ -91,10 +106,15 @@ class PostsController extends \BaseController {
 
 		if ($validator->fails())
 		{
-			return Redirect::back()->withInput->withErrors($validator);
+			// set flash data
+			Session::flash('errorMessage', 'Error: Missing Some Input');
+			return Redirect::back()->withInput()->withErrors($validator);
 		}
 		else
 		{
+
+			Session::flash('successMessage', 'Success: Post Updated');
+
 			$post->title = Input::get('title');
 			$post->body = Input::get('body');
 			$post->save();
@@ -112,7 +132,10 @@ class PostsController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		$post = Post::findorfail($id);
+		$post->delete();
+		Session::flash('successMessage', 'Success: Post Deleted');
+		return Redirect::action('PostsController@index');
 	}
 
 
