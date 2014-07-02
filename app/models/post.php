@@ -9,5 +9,4 @@ class Post extends Eloquent {
     static public $rules = [
     	'title' => 'required|max:100'
     ];
-
 }
