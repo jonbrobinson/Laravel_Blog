@@ -10,7 +10,7 @@ class PostsController extends \BaseController {
 	    // run auth filter before all methods on this controller except index and show
 	    $this->beforeFilter('auth.basic', array('except' => array('index', 'show')));
 	}
-	
+
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -18,7 +18,14 @@ class PostsController extends \BaseController {
 	 */
 	public function index()
 	{
-		$posts = Post::paginate(4);
+		$posts = Post::orderBy('created_at', 'desc')->paginate(4);
+
+		if (Input::has('search'))
+		{
+			$search =  Input::get('search');
+			$posts = Post::where("title", "LIKE", "%" . $search . "%")->paginate(4);
+		}
+
 		return View::make('posts.index')->with('posts', $posts);
 	}
 
@@ -63,9 +70,7 @@ class PostsController extends \BaseController {
 
 			return Redirect::action('PostsController@index');
 		}
-		
 	}
-
 
 	/**
 	 * Display the specified resource.
@@ -90,7 +95,6 @@ class PostsController extends \BaseController {
 		$post = Post::find($id);
 		return View::make('posts.edit')->with('post', $post);
 	}
-
 
 	/**
 	 * Update the specified resource in storage.
