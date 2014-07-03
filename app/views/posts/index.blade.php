@@ -18,6 +18,13 @@
 	</table>
 	<br>
 	{{ $posts->links() }}
+
+	{{Form::open(array('action' => array('PostsController@index'), 'method' => 'GET'))}}
+		<div>
+			{{ Form::text('search', null, array('placeholder' => 'Search Query')) }}
+			{{ Form::submit('Search') }}
+		</div>
+	{{ Form::close() }}
 	<hr>
 
 	{{ link_to_action('PostsController@create', 'New Post') }}
