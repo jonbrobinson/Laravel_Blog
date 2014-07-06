@@ -20,7 +20,7 @@ if (!$comment) $errors[count($errors)] = 'Please enter your comment.';
 if (!$errors) {
 
 	//recipient - replace your email here
-	$to = 'jonbrobinson@live.com';	
+	$to = 'jonbrobinson@gmail.com';	
 	//sender - from the form
 	$from = $name . ' <' . $email . '>';
 	
@@ -49,7 +49,7 @@ if (!$errors) {
 } else {
 	//display the errors message
 	for ($i=0; $i<count($errors); $i++) echo $errors[$i] . '<br/>';
-	echo '<a href="jonborobinson_portfolio.html">Back</a>';
+	echo '<a href="index.html">Back</a>';
 	exit;
 }
 
