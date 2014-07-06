@@ -1,20 +1,20 @@
 @extends('layouts.master')
 
 @section('content')
-
-	<h1>Edit Post</h1>
-
-	{{Form::model($post, array('action' => array('PostsController@update', $post->id), 'method' => 'PUT'))}}
-		<div>
+<div class="col-md-8 col-md-offset-2">
+	<h1>Edit Post{{ link_to_action('PostsController@index', 'Home', null, array("class" => "btn btn-xs btn-primary pull-right", "role" => "button")) }}</h1>
+	{{ Form::model($post, array('action' => array('PostsController@update', $post->id), 'method' => 'PUT'), ['role' => 'form']) }}
+		<div class="form-group">
 			{{ Form::label('title', 'Title') }}<br>
 			{{ Form::text('title') }}<br>
 			{{ $errors->first('title', '<<span class="help-block">:mesage</span>')}}<br>
 		</div>
-		<div>
+		<div class="form-group">
 			{{ Form::label('body', 'Body') }}<br>
-			{{ Form::textarea('body') }}<br>
-			{{ $errors->first('body', '<<span class="help-block">:mesage</span>')}}
+			{{ Form::textarea('body', null,['class'=> 'form-control', 'placeholder' => 'Enter Text']) }}<br>
+			{{ $errors->first('body', '<span class="help-block">:mesage</span>')}}
 		</div>
-		{{Form::submit('Save Post')}}
+		{{Form::submit('Save', ['class' => 'btn btn-success'])}}
 	{{ Form::close() }}
+</div>
 @stop
