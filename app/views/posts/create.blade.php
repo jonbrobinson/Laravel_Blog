@@ -1,21 +1,21 @@
 @extends('layouts.master')
 
 @section('content')
+<div class="col-md-8 col-md-offset-2">
+	<h1>Create Post {{ link_to_action('PostsController@index', 'Home', null, array("class" => "btn btn-xs btn-primary pull-right", "role" => "button")) }}</h1>
 
-	<h1>Create Post</h1>
-
-	{{Form::open(array('action' => 'PostsController@store', 'method' => 'POST'))}}
-		<div>
+	{{Form::open(array('action' => 'PostsController@store', 'method' => 'POST'),['role' => 'form'])}}
+		<div class="form-group">
 			{{ Form::label('title', 'Title') }}<br>
 			{{ Form::text('title') }}<br>
 			{{ $errors->first('title', '<<span class="help-block">:mesage</span>')}}<br>
 		</div>
-		<div>
+		<div class="form-group">
 			{{ Form::label('body', 'Body') }}<br>
-			{{ Form::textarea('body') }}<br>
-			{{ $errors->first('body', '<<span class="help-block">:mesage</span>')}}
+			{{ Form::textarea('body', null ,['class'=> 'form-control', 'placeholder' => 'Enter Text']) }}<br>
+			{{ $errors->first('body', '<span class="help-block">:mesage</span>')}}
 		</div>
-		</div>
-		{{Form::submit('Save Post')}}
+		{{Form::submit('Save', ['class' => 'btn btn-success'])}}
 	{{ Form::close() }}
+</div>
 @stop
