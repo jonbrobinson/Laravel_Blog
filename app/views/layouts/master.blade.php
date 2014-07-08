@@ -9,23 +9,35 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
     <title>{{{ $title or "Laravel Blog" }}}</title>
     @yield('topscript')
 </head>
 
-<div class="container">
+
 <body id="{{{ $body_id or "" }}}"  class="{{{ $body_class or "" }}}">
 
-	<!------ Alert Messages ------>
-	@if (Session::has('successMessage'))
-		<div class="alert alert-success">{{{ Session::get('successMessage') }}}</div>
-	@endif
-	@if (Session::has('errorMessage'))
-		<div class="alert alert-danger">{{{ Session::get('errorMessage') }}}</div>
-	@endif
+	<div class="container">
+		<!------ Alert Messages ------>
+		@if (Session::has('successMessage'))
+			<div class="alert alert-success">{{{ Session::get('successMessage') }}}</div>
+		@endif
+		@if (Session::has('errorMessage'))
+			<div class="alert alert-danger">{{{ Session::get('errorMessage') }}}</div>
+		@endif
 
-    @yield('content')
- </div>
+		@if(Auth::check())
+			{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}
+		@else
+			{{ link_to_action('HomeController@showLogin', 'Sign In', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}
+		@endif
+
+	    @yield('content')
+	</div>
+
     @yield('bottomscript')
 </body>
 </html>
