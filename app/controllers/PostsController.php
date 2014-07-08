@@ -8,7 +8,7 @@ class PostsController extends \BaseController {
 	    parent::__construct();
 
 	    // run auth filter before all methods on this controller except index and show
-	    $this->beforeFilter('auth.basic', array('except' => array('index', 'show')));
+	    $this->beforeFilter('auth', array('except' => array('index', 'show')));
 	}
 
 	/**
@@ -64,11 +64,18 @@ class PostsController extends \BaseController {
 			Session::flash('successMessage', 'Success: New Post Added');
 
 			$post = new Post();
+			$post->user_id = Auth::user()->id;
 			$post->title = Input::get('title');
 			$post->body = Input::get('body');
 			$post->save();
 
-			return Redirect::action('PostsController@index');
+			if (Input::hasFile('image') && Input::file('image')->isValid()){
+
+				$post->addUploadImage(Input::file('image'));
+				$post->save();
+			}
+
+			return Redirect::action('PostsController@show', $post->id);
 		}
 	}
 
@@ -119,11 +126,18 @@ class PostsController extends \BaseController {
 
 			Session::flash('successMessage', 'Success: Post Updated');
 
+			$post->user_id = Auth::user()->id;
 			$post->title = Input::get('title');
 			$post->body = Input::get('body');
 			$post->save();
 
-			return Redirect::action('PostsController@index');
+			if (Input::hasFile('image') && Input::file('image')->isValid()){
+
+				$post->addUploadImage(Input::file('image'));
+				$post->save();
+			}
+
+			return Redirect::action('PostsController@show', $post->id);
 		}
 	}
 
