@@ -13,6 +13,8 @@
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
+	<link rel="stylesheet" type="text/css" href="/pagedown/demo/browser/demo.css" />
+
     <title>{{{ $title or "Laravel Blog" }}}</title>
     @yield('topscript')
 </head>
@@ -38,6 +40,9 @@
 	    @yield('content')
 	</div>
 
+	<script type="text/javascript" src="/pagedown/Markdown.Converter.js"></script>
+	<script type="text/javascript" src="/pagedown/Markdown.Sanitizer.js"></script>
+	<script type="text/javascript" src="/pagedown/Markdown.Editor.js"></script>
     @yield('bottomscript')
 </body>
 </html>
