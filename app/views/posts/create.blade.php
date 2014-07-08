@@ -14,12 +14,26 @@
 			{{ Form::label('image', 'Add Image') }}<br>
 			{{ Form::file('image') }}<br>
 		</div>
-		<div class="form-group">
+		<div class="form-group wmd-panel">
 			{{ Form::label('body', 'Body') }}<br>
-			{{ Form::textarea('body', null ,['class'=> 'form-control', 'placeholder' => 'Enter Text']) }}<br>
+			<div id="wmd-button-bar"></div>
+			{{ Form::textarea('body', null ,['class'=> 'form-control wmd-input', 'id' => 'wmd-input', 'placeholder' => 'Enter Text']) }}<br>
 			{{ $errors->first('body', '<span class="help-block">:mesage</span>')}}
+
 		</div>
 		{{Form::submit('Save', ['class' => 'btn btn-success'])}}
 	{{ Form::close() }}
+
+	<div id="wmd-preview" class="wmd-panel wmd-preview"></div>
 </div>
+@stop
+
+@section('bottomscript')
+<script type="text/javascript">
+	(function () {
+	    var converter1 = Markdown.getSanitizingConverter();
+	    var editor1 = new Markdown.Editor(converter1);
+	    editor1.run();
+	})();
+</script>
 @stop
