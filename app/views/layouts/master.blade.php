@@ -21,7 +21,19 @@
 
 
 <body id="{{{ $body_id or "" }}}"  class="{{{ $body_class or "" }}}">
-
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">Brand</a>
+			    </div>
+		</div>
+	</nav>
 	<div class="container">
 		<!------ Alert Messages ------>
 		@if (Session::has('successMessage'))
@@ -33,7 +45,6 @@
 
 		@if(Auth::check())
 			<h6 class="pull">Welcome {{ Auth::user()->first_name }}{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</h6>
-			
 		@else
 			{{ link_to_action('HomeController@showLogin', 'Sign In', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}
 		@endif
