@@ -24,7 +24,6 @@
 		{{Form::submit('Save', ['class' => 'btn btn-success'])}}
 	{{ Form::close() }}
 
-	<div id="wmd-preview" class="wmd-panel wmd-preview"></div>
 </div>
 @stop
 
