@@ -16,6 +16,7 @@
 	{{ Form::open(array('action' => array('PostsController@destroy', $post->id), 'method' => 'DELETE'))  }}
 		{{ Form::submit('Delete') }}
 	{{ Form::close() }}
+	<a href="{{ action('PostsController@edit', $post->id) }}" >Edit</a>
 	@endif
 </div>
 @stop
