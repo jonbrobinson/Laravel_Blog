@@ -21,21 +21,43 @@
 
 
 <body id="{{{ $body_id or "" }}}"  class="{{{ $body_class or "" }}}">
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container-fluid">
-			<div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="#">Brand</a>
-			    </div>
-		</div>
-	</nav>
+
 	<div class="container">
+
+		<!------ NavBar ------>
+
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="{{ action('PostsController@index') }}">Href=MyDevLife</a>
+			    </div>
+
+			    <!------ Search ------>
+
+			    {{ Form::open(['action' => ['PostsController@index'], 'method' => 'GET', 'class' => 'navbar-form navbar-left',  'role' => 'search',]) }}
+			      <div class="form-group">
+			        {{Form::text('search', null, array('placeholder' => 'Search Title')) }}
+			      </div>
+			      <button type="submit" class="btn btn-default">Submit</button>
+			    {{ Form::close() }}
+				@if(Auth::check())
+					<div class="pull-right"><p class="navbar-text">Welcome {{ Auth::user()->first_name }}{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</p></div>
+				@else
+					<div class="pull-right">
+					<p class="navbar-text"></p>{{ link_to_action('HomeController@showLogin', 'Sign In', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}
+					</div>
+				@endif
+			</div>
+		</nav>
+
 		<!------ Alert Messages ------>
+
 		@if (Session::has('successMessage'))
 			<div class="alert alert-success">{{{ Session::get('successMessage') }}}</div>
 		@endif
@@ -43,11 +65,6 @@
 			<div class="alert alert-danger">{{{ Session::get('errorMessage') }}}</div>
 		@endif
 
-		@if(Auth::check())
-			<h6 class="pull">Welcome {{ Auth::user()->first_name }}{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</h6>
-		@else
-			{{ link_to_action('HomeController@showLogin', 'Sign In', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}
-		@endif
 
 	    @yield('content')
 	</div>
