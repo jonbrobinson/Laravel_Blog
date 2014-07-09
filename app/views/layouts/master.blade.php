@@ -37,22 +37,20 @@
 					</button>
 					<a class="navbar-brand" href="{{ action('PostsController@index') }}">Href=MyDevLife</a>
 			    </div>
-
-			    <!------ Search ------>
-
-			    {{ Form::open(['action' => ['PostsController@index'], 'method' => 'GET', 'class' => 'navbar-form navbar-left',  'role' => 'search',]) }}
-			      <div class="form-group">
-			        {{Form::text('search', null, array('placeholder' => 'Search Title')) }}
-			      </div>
-			      <button type="submit" class="btn btn-default">Submit</button>
-			    {{ Form::close() }}
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="{{ action('PostsController@index') }}">Home</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Resume</a></li>
+					</ul>
 				@if(Auth::check())
 					<div class="pull-right"><p class="navbar-text">Welcome {{ Auth::user()->first_name }}{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</p></div>
 				@else
 					<div class="pull-right">
-					<p class="navbar-text"></p>{{ link_to_action('HomeController@showLogin', 'Sign In', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}
+					<p class="navbar-text">{{ link_to_action('HomeController@showLogin', 'Sign In', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</p>
 					</div>
 				@endif
+				</div>
 			</div>
 		</nav>
 
