@@ -60,6 +60,9 @@
 				@if(Auth::check())
 				<td>
 					<a href="{{ action('PostsController@edit', $post->id) }}" >Edit</a>
+					{{ Form::open(array('action' => array('PostsController@destroy', $post->id), 'method' => 'DELETE'))  }}
+						{{ Form::submit('Delete') }}
+					{{ Form::close() }}
 				</td>
 				@endif
 			</tr>
