@@ -23,7 +23,6 @@
 		</div>
 		{{Form::submit('Save', ['class' => 'btn btn-success'])}}
 	{{ Form::close() }}
-
 </div>
 @stop
 
