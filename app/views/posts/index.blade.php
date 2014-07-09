@@ -60,9 +60,7 @@
 				@if(Auth::check())
 				<td>
 					<a href="{{ action('PostsController@edit', $post->id) }}" >Edit</a>
-					{{ Form::open(array('action' => array('PostsController@destroy', $post->id), 'method' => 'DELETE'))  }}
-						{{ Form::submit('Delete') }}
-					{{ Form::close() }}
+					<a href="#" class=" deletePost btn btn-default btn-sm" data-postid="{{ $post->id }}">Delete</a>
 				</td>
 				@endif
 			</tr>
@@ -72,5 +70,20 @@
 
 	{{ $posts->appends(array('search' => Input::get('search')))->links() }}
 	<hr>
+
+	{{ Form::open(array("action" => "PostsController@destroy", 'id' => 'deleteForm', 'method' => 'delete')) }}
+	{{ Form::close() }}
+
 </div>
+@stop
+@section('bottomscript')
+<script type="text/javascript">
+   $(".deletePost").click(function() {
+       var postId = $(this).data('postid');
+       $("#deleteForm").attr('action', '/posts/' + postId);
+       if(confirm("Are you sure you want to delete post")) {
+           $('#deleteForm').submit();
+       }
+   });
+</script>
 @stop
