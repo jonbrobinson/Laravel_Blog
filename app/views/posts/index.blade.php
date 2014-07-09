@@ -4,7 +4,7 @@
 @section('content')
 
 <h2>
-	Lost in Coding
+	A Laravel Blog
 </h2>
 <div class="col-md-4">
 	<div class="row">
