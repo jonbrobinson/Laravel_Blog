@@ -32,7 +32,8 @@
 		@endif
 
 		@if(Auth::check())
-			{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}
+			<h6 class="pull">Welcome {{ Auth::user()->first_name }}{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</h6>
+			
 		@else
 			{{ link_to_action('HomeController@showLogin', 'Sign In', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}
 		@endif
@@ -40,6 +41,7 @@
 	    @yield('content')
 	</div>
 
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="/pagedown/Markdown.Converter.js"></script>
 	<script type="text/javascript" src="/pagedown/Markdown.Sanitizer.js"></script>
 	<script type="text/javascript" src="/pagedown/Markdown.Editor.js"></script>
