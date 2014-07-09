@@ -8,7 +8,7 @@
 		<div class="form-group">
 			{{ Form::label('title', 'Title') }}<br>
 			{{ Form::text('title') }}<br>
-			{{ $errors->first('title', '<<span class="help-block">:mesage</span>')}}<br>
+			{{ $errors->first('title', '<span class="help-block">:mesage</span>')}}<br>
 		</div>
 		<div>
 			{{ Form::label('image', 'Add Image') }}<br>
