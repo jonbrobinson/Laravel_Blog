@@ -3,6 +3,7 @@
 @section('content')
 <div class="col-md-8 col-md-offset-2">
 	<h1>Edit Post{{ link_to_action('PostsController@index', 'Home', null, array("class" => "btn btn-xs btn-primary pull-right", "role" => "button")) }}</h1>
+	<hr>
 	{{ Form::model($post, array('action' => array('PostsController@update', $post->id), 'method' => 'PUT', 'files' => true)) }}
 		<div class="form-group">
 			{{ Form::label('title', 'Title') }}<br>
