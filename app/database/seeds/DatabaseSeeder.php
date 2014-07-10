@@ -41,11 +41,12 @@ class PostsTableSeeder extends Seeder {
 
         for ($i = 0; $i <= 10; $i++)
         {
-        $post = new Post();
-        $post->user_id = 1;
-        $post->title = "Title $i";
-        $post->body = "This is body text for post $i";
-        $post->save();
+            $post = new Post();
+            $post->user_id = 1;
+            $post->title = "Title $i";
+            $post->body = "This is body text for post $i";
+            $post->slug = '';
+            $post->save();
     	}
     }
 
