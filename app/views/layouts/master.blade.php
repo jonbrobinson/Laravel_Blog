@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!-- Latest compiled and minified CSS -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 	<!-- Optional theme -->
@@ -40,8 +41,11 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li><a href="{{ action('PostsController@index') }}">Home</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Resume</a></li>
+						<li><a href="/afolique/theme/jonbrobinson_portfolio.html">Portfolio</a></li>
+						<li><a href="/resume/jonbrobinson.html">Resume</a></li>
+						@if(Auth::check())
+						<li><a href="{{ action('PostsController@create') }}">Create Post</a></li>
+						@endif
 					</ul>
 				@if(Auth::check())
 					<div class="pull-right"><p class="navbar-text">Welcome {{ Auth::user()->first_name }}{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</p></div>
@@ -57,20 +61,22 @@
 		<!------ Alert Messages ------>
 
 		@if (Session::has('successMessage'))
-			<div class="alert alert-success">{{{ Session::get('successMessage') }}}</div>
+			<div class="alert alert-success fade_message">{{{ Session::get('successMessage') }}}</div>
 		@endif
 		@if (Session::has('errorMessage'))
-			<div class="alert alert-danger">{{{ Session::get('errorMessage') }}}</div>
+			<div class="alert alert-danger fade_message">{{{ Session::get('errorMessage') }}}</div>
 		@endif
 
 
 	    @yield('content')
 	</div>
 
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="/pagedown/Markdown.Converter.js"></script>
 	<script type="text/javascript" src="/pagedown/Markdown.Sanitizer.js"></script>
 	<script type="text/javascript" src="/pagedown/Markdown.Editor.js"></script>
     @yield('bottomscript')
+    <script>
+	    $('.fade_message').delay(2000).fadeOut(1000);
+	</script>
 </body>
 </html>
