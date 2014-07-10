@@ -28,7 +28,7 @@
 	<div class="row well"> <!------ Search Field ------>
 		{{Form::open(array('action' => array('PostsController@index'), 'method' => 'GET'))}}
 			{{ Form::label('search', 'Blog Search') }} <br>
-			{{ Form::text('search', null, array('placeholder' => 'Search Blog')) }}
+			{{ Form::text('search', null, array('placeholder' => 'Search')) }}
 			{{ Form::submit('Search') }}
 		{{ Form::close() }}
 	</div>
