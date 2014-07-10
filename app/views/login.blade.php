@@ -2,14 +2,19 @@
 
 
 @section('content')
-<div class="row">
-	<h2>Login</h2>
+<div class="row col-md-4 col-md-offset-4">
+	<div class="row">
+	<h2>Sign In</h2>
 	{{ Form::open(array('action' => array('HomeController@doLogin'), 'role'=> 'form')) 	}}
-		{{ Form::label('email', 'E-Mail Address') }}
-		{{ Form::text('email', null, array('placeholder' => 'Required', "class" => "form-control")) }}
-		{{ Form::label('password', 'Password') }}
-		{{ Form::password('password', array('placeholder' => 'Required', "class" => "form-control")) }}
-		{{ Form::submit('Sign In') }}
+		{{ Form::email('email', null, array('placeholder' => 'Email', "class" => "form-control")) }}
+		{{ Form::password('password', array('placeholder' => 'Password', "class" => "form-control")) }}
+		<div class="checkbox">
+		   <label>
+		     <input type="checkbox"> Remember Me
+		   </label>
+		 </div>
+		{{ Form::submit('Sign In', ['class' => 'btn btn-primary']) }}
 	{{ Form::close() }}
+	</div>
 </div>
 @stop
