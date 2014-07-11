@@ -3,6 +3,8 @@
 
 @section('content')
 
+<!------ Side Bar ------>
+
 <div class="col-md-3">
 	<div class="row">
 		<h2>A Laravel Blog</h2>
@@ -10,7 +12,7 @@
 	</div>
 	<div class="row">
 		<h4> About</h4>
-		<p>This is a Blog I built using Laravel, a PHP Framework, and designed using Twitter Bootstrap.  THe Post are here to give a little insight into programmer as they search or there next position. I recently jumped into programming and I am excited for the future.  To see a little outside my programming life </p>
+		<p>This is a Blog I built using Laravel, a PHP Framework, and designed using Twitter Bootstrap.  The Post are here to give a little insight into my life as a transition into a programmer. I recently jumped into programming and I am excited for the future. </p>
 	</div>
 	<div class="row">
 		<h4>Let's Connect</h4>
