@@ -67,6 +67,7 @@ class PostsController extends \BaseController {
 			$post->user_id = Auth::user()->id;
 			$post->title = Input::get('title');
 			$post->body = Input::get('body');
+			$post->slug = Input::get('title');
 			$post->save();
 
 			if (Input::hasFile('image') && Input::file('image')->isValid()){
@@ -129,7 +130,7 @@ class PostsController extends \BaseController {
 			$post->user_id = Auth::user()->id;
 			$post->title = Input::get('title');
 			$post->body = Input::get('body');
-			$post->slug
+			$post->slug = Input::get('title');
 			$post->save();
 
 			if (Input::hasFile('image') && Input::file('image')->isValid()){
@@ -138,7 +139,7 @@ class PostsController extends \BaseController {
 				$post->save();
 			}
 
-			return Redirect::action('PostsController@show', $post->id);
+			return Redirect::action('PostsController@show', $post->slug);
 		}
 	}
 
