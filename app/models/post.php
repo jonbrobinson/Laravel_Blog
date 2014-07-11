@@ -23,7 +23,7 @@ class Post extends BaseModel {
 
 		$systemPath = public_path() . '/' . $this->imgDir . '/';
 
-		$imageName = $this->id . '-' . $image->getClientOriginalNAme();
+		$imageName = $this->id . '-' . $image->getClientOriginalName();
 
 		$image->move($systemPath, $imageName);
 
@@ -37,5 +37,16 @@ class Post extends BaseModel {
 		$purifier = new HTMLPurifier($config);
 		$clean_html = $purifier->purify($dirty_html);
 		return $clean_html;
+	}
+	public static function findBySlug ($slug)
+	{
+		$post = self::where('slug', $slug)->first();
+		return ($post == null) ? App::abort(404) : $post;
+	}
+
+	public function setSlugAttribute ($value)
+	{
+		$value = str_replace(' ', '-', trim($this->title));
+		$this->attributes['slug'] = strtolower($value);
 	}
 }
