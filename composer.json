@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"erusev/parsedown": "s0.8.*",
+		"erusev/parsedown": "0.8.*",
 		"ezyang/htmlpurifier": "4.6.*"
 	},
 	"autoload": {
