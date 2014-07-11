@@ -88,7 +88,7 @@ class PostsController extends \BaseController {
 	 */
 	public function show($slug)
 	{
-		$post = Post::where('slug', $slug)->firstOrFail();
+		$post = Post::findBySlug($slug);
 		return View::make('posts.show')->with('post', $post);
 	}
 
