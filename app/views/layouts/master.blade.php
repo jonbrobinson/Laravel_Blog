@@ -36,13 +36,15 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
+					@if(Request::url() != action('HomeController@resume_route'))
 					<a class="navbar-brand" href="{{ action('PostsController@index') }}">Href=MyDevLife</a>
+					@endif
 			    </div>
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li><a href="{{ action('PostsController@index') }}">Home</a></li>
-						<li><a href="/afolique/theme/jonbrobinson_portfolio.html">Portfolio</a></li>
-						<li><a href="/resume/jonbrobinson.html">Resume</a></li>
+						<li><a href="/">Home</a></li>
+						<li><a href="/resume">Resume</a></li>
+						<li><a href="{{ action('PostsController@index') }}">Blog</a></li>
 						@if(Auth::check())
 						<li><a href="{{ action('PostsController@create') }}">Create Post</a></li>
 						@endif
@@ -50,9 +52,11 @@
 				@if(Auth::check())
 					<div class="pull-right"><p class="navbar-text">Welcome {{ Auth::user()->first_name }}{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</p></div>
 				@else
+					@if(Request::url() != action('HomeController@resume_route'))
 					<div class="pull-right">
 					<p class="navbar-text">{{ link_to_action('HomeController@showLogin', 'Sign In', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</p>
 					</div>
+					@endif
 				@endif
 				</div>
 			</div>
