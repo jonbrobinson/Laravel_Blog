@@ -25,7 +25,6 @@
 		</ol>
 
 		<br>
-
 	</div>
 	<div class="row well"> <!------ Search Field ------>
 		{{Form::open(array('action' => array('PostsController@index'), 'method' => 'GET'))}}
