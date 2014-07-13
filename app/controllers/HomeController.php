@@ -65,11 +65,11 @@ class HomeController extends BaseController {
 	public function portfolio_route()
 	{
 		$data = [
-		'title' => 'Jonbrobinson Portfolio',
+		'title' => 'Jonathan Robinson',
 		'body_id' => 'page-top',
 		'body_class' => 'index'
 		];
-		return View::make('pages.porfolio')->with($data);
+		return View::make('pages.portfolio')->with($data);
 	}
 
 	public function resume_route()
