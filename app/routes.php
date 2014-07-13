@@ -18,13 +18,9 @@ Route::resource('posts', 'PostsController');
 
 Route::get('/resume','HomeController@resume_route');
 
-Route::get('/portfolio','HomeController@portfolio_route');
+Route::get('/','HomeController@portfolio_route');
 
 Route::get('/sayhello/{name}', 'HomeController@sayhello');
-
-Route::get('/', function(){
-	return View::make('temp.my_first_view');
-});
 
 Route::get('/rolldice/{guess}', function($guess){
 	$random = rand(1,6);
