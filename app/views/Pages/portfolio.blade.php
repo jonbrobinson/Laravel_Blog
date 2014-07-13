@@ -1,430 +1,374 @@
-@extends('layouts.master')
-
-
-@section('topscript')
-
-    <title>Portfolio_JR</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/freelancer-remix.css" rel="stylesheet" type="text/css">
-
-    <!-- Fonts -->
-    <link href="/public/freelancer/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- IE8 support for HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta charset="utf-8">
+<title>Jonathan Robinson</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Jonathan Robinson">
+<!-- Styles -->
+<link href="/afolique/theme/css/style.css" rel="stylesheet">
+<link href="/afolique/theme/css/style-responsive.css" rel="stylesheet">
+<!-- HTML5 for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-@stop
+<!--[if IE 8]>
+    <link href="css/ie8.css" rel="stylesheet">
+<![endif]-->
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/afolique/theme/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/afolique/theme/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/afolique/theme/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="/afolique/theme/ico/apple-touch-icon-57-precomposed.png">
+<!-- Javascript placed at the end of the document so the pages load faster -->
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <!-- SIDEBAR
+        ================================================== -->
+        <div class="span3">
+            <div class="well sidebar-nav sidebar-nav-fixed">
+                <div class="logo">
+                    <!-- Logo --><a href="#home">Jonathan</a>
+                    <a href="#home">Robinson</a>
+                </div>
+                <ul>
+                    <!-- MENU - Note that "#..." is the anchor id. Each one should correspond to our id sections below.
+                    ================================================== -->
+                    <li><a class="home" href="#home">Home</a></li>
+                    <li class="description">Sweet home</li>
 
-@section('content')
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Jonbrobinson</a>
-            </div>
+                    <li><a class="about" href="#about">About me</a></li>
+                    <li class="description">Who I am</li>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Activities</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
+                    <li><a class="services" href="#expertise">Expertise</a></li>
+                    <li class="description">What I offer</li>
+
+                    <li><a class="portofolio" href="#projects">Projects</a></li>
+                    <li class="description">What I've Done</li>
+
+                    <li><a class="portofolio" href="/posts">Blog</a></li>
+                    <li class="description">Code Life</li>
+
+                    <li><a class="portofolio" href="/resume">Resume</a></li>
+                    <li class="description">Professional Life</li>
+
+                    <li><a class="contact" href="#contact">Contact</a></li>
+                    <li class="description">Get in touch</li>
                 </ul>
+                <div class="social">
+                    <a href="http://www.facebook.com/jonbrobinson"><img src="/afolique/theme/img/facebook.png" alt=""></a>
+                    <a href="http://www.twitter.com/jonbrobinson"><img src="/afolique/theme/img/twitter.png" alt=""></a>
+                    <a href="http://www.linkedin.com/"><img src="img/twitter.png" alt=""></a>
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/headshot_casual.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Codeup Student</span>
-                        <hr class="star-light">
-                        <span class="skills">Web Developer - Content Creator - Marketer</span>
+        <!-- MAIN CONTENT
+        ================================================== -->
+        <div class="span9">
+            <!-- HOME SECTION
+            ================================================== -->
+            <section id="home">
+            <div class="hero-unit">
+                <div class="slider-wrapper theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <!-- Slider items here-->
+                        <a href="#"><img src="/afolique/theme/img/homeslides/IMG_0198.jpg" alt="" title=""/></a>
+                        <a href="#"><img src="/afolique/theme/img/homeslides/IMG_0537.jpg" alt="" title=""/></a>
+                        <a href="#"><img src="/afolique/theme/img/homeslides/IMG_1025.jpg" alt="" title=""/></a>
                     </div>
+                        <!-- Some shadow--><img src="/afolique/theme/img/shadow.png" alt="" class="shadowslider">
                 </div>
             </div>
-        </div>
-    </header>
+            </section>
 
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Activities</h2>
-                    <hr class="star-primary">
+            <!-- ABOUT SECTION
+            ================================================== -->
+            <section id="about">
+            <div class="hero-unittext">
+                <h1>- Great Help Is Hard To Find -</h1>
+                <h2>and that's why you should <span class="highlighthero">hire me</span></h2>
+            </div>
+            <div class="row-fluid">
+                <div class="span8">
+                    <h1>ABOUT ME</h1>
+                    <p>
+                        From the sunny Westcoast to the Far East I can honestly say I've been fortunate enough to travel the world.  Currrently I'm enjoying South Texas by calling home San Antonio.  I can't say that this is the final landing spot but for now I'm truly enjoying the southwestern appeal.
+                    </p>
+                    <p>
+                         Not Long ago I made the decision to become a programmer.  I found Codeup as opportunity to get me into the industry and haven't looked back since.  It's a few short weeks I have created a great portfolio website to demonstrate some of my skills. Hope you enjoy. Let's talk some more.
+                    </p>
+                </div>
+                <div class="span4">
+                    <div class="tdiv t5">
+                        You want somebody who's going to bring personality, life experience and hard work to your team.   <br/><br/>
+                        <p>
+                         Contact me through my social networks or through my contact form below. Let's do some business together.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="jrob/IMG_3079.jpg" class="img-responsive" alt="" />
-                    </a>
+            <br/>
+            <div class="row-fluid">
+                <div class="span4">
+                    <img src="/img/headshot_casual.png" alt="JRobinson_pic">
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="jrob/IMG_0185.jpeg" class="img-responsive" alt="Golden Gate Bridge" />
-                    </a>
+                <div class="span4">
+                    <h2>Why choose me</h2>
+                    <p>
+                         Not only am I a hard worker but I like to get things done right.  I add a personality to any team I join. I am looking forward to working with you to build great things.
+                    </p>
+                    <p class="fancystyle">
+                         Professional
+                    </p>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="jrob/DSC_6084.jpg" class="img-responsive" alt="" />
-                    </a>
+                <div class="span4">
+                    <h2>My Experience</h2>
+                    <p>
+                         I am new to web development but more than prepared to help you solve some problems.  From my portfolio you can see some of the projects i have worked and I can't wait to show you more.
+                    </p>
+                    <p class="fancystyle">
+                         Enthusiastic
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
+            </section>
+            <div class="pagebreak">
+            </div>
 
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+            <!-- Expertise
+            ================================================== -->
+            <section id="expertise">
+            <div class="separator"></div><br/>
+            <div class="row-fluid">
+                <div class="span12">
+                    <h1>Expertise</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>From West to the Far East I can honestly say I've been fortunate enough to travel the world.  Currrently I'm enoying South Texas by calling home San Antonio.  I can't say that this is the final landing spot but for now I'm truly enjoying the southwestern appeal.</p>
+            <div class="row-fluid">
+                <div class="span6">
+                    <span class="servicetitle">Web Development</span>
+                    <p>
+                        COming from a non-technical background I am still constantly learning but I a great fundamental ability as both a frnt-end and backend developer.  more importantly I have learned to learn languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.
+                    </p>
+                    <p>
+                        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+                    </p>
                 </div>
-                <div class="col-lg-4">
-                    <p>A few months ago I made the decision to become a programmer.  I found Codeup as opportunity to get me into the industry and haven't looked back since.  After a few short weeks I have created a great portfolio website to demonstrate some of my skills. Hope you enjoy. Let's talk some more.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Resume
-                    </a>
+                <div class="span6">
+                    <span class="servicetitle grey">Sales</span>
+                    <p>
+                        Befoe web development I was building my career as an inside sales rep calling customers and partner organizations closing deals and building reputations with partnering companies. I am familiar with a sales cylce and overcoming objection
+                    </p>
+                    <p>
+                         Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
+            <br/>
+            <div class="row-fluid">
+                <div class="span6">
+                    <span class="servicetitle grey">Event Management</span>
+                    <p>
+                         My expertise comes from working multple sporting events at an active colege.  I was involved in a lot of the manual labor innvoled of setting a facilty up and breaking down.  Also Had to organize others in Gameday execution on running an active facility with over 15,000 attendees.
+                    </p>
+                    <p>
+                         Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+                    </p>
+                </div>
+                <div class="span6">
+                    <span class="servicetitle">Creative Content</span>
+                    <p>
+                        Outside of my professional life I'm very interested in Digital content and producing online content.  I am self taught and educated when it comes to video production.  My passion for Digital content is a true hobby.  Getting paid would nice but if I never got paid to continue developing my skils I will be happy.  
+                    </p>
+                    <p>
+                        Check out some of my work below.
+                    </p>
+                </div>
+            </div>
+            </section>
+            <div class="pagebreak">
+            </div>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
+            <!-- Projects
+            ================================================== -->
+            <section id="projects">
+            <div class="separator"></div><br/>
+            <div class="row-fluid">
+                <div class="span10 addspace">
+                    <h1>Projects</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form">
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="name">Name</label>
-                                <input class="form-control" type="text" name="name" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="email">Email Address</label>
-                                <input class="form-control" type="email" name="email" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="message">Message</label>
-                                <textarea placeholder="Message" class="form-control" rows="5"></textarea>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-lg btn-success">Send</button>
-                            </div>
-                        </div>
-                    </form>
+            <!-- First portofolio simple row-->
+            <div class="row-fluid">
+                <div class="span4 portof">
+                        <img src="/afolique/theme/img/portofolio1/comingsoon.png" class="grayscale" alt="">
+                    <div class="projectdesc">
+                        <p>
+                            Website I built for my Final Project at Codeup.  This Website uses everything I learned while attending class such as Javascript, PHP, MySQL, HTML.
+                        </p>
+                        <p>
+                            <a href="#" class="minibutton">view project</a>
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Where to Find Me</h3>
-                        <p>112 W Pecan St
-                            <br>San Antonio, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Personality</h3>
-                        <ul class="list-inline">
-                            <li><a href="http://www.facebook.com/jonbrobinson" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li><a href="http://plus.google.com/+jonathanrobinson408" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li><a href="http://www.twitter.com/jonbrobinson" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/pub/jonathan-robinson/13/36a/188" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="http://www.nba.com" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelance</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                <div class="span4 portof">
+                        <img src="/afolique/theme/img/portofolio1/comingsoon.png" class="grayscale" alt="">
+                    <div class="projectdesc">
+                        <p>
+                             This is a personal blog I created using PHP, Laravel, and MySQL.  Simple blog to give little more insight into my journeys as a developer.
+                        </p>
+                        <p>
+                            <a href="#" class="minibutton">view project</a>
+                        </p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; 2014 - Jonbrobinson Company
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+                <div class="span4 portof">
+                        <img src="/afolique/theme/img/portofolio1/popshotscreenshot.png" class="grayscale" alt="">
+                    <div class="projectdesc">
+                        <p>
+                            Michael Jordan inspired Pop - A - Shot game created using Javascript, JQuery, HTML, and CSS.  Nothing complicated but a game to demonstrate basic skills.
+                        </p>
+                        <p>
+                            <a href="#" class="minibutton">view project</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <!-- Second portofolio simple row-->
+            <div class="row-fluid">
+                <div class="span4 portof">
+                        <img src="/afolique/theme/img/portofolio1/comingsoon.png" class="grayscale" alt="">
+                    <div class="projectdesc">
+                        <p>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum mas.
+                        </p>
+                        <p>
+                            <a href="#" class="minibutton">view project</a>
+                        </p>
+                    </div>
+                </div>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+                <div class="span4 portof">
+                        <img src="/afolique/theme/img/portofolio1/danielleYTScreenShot.png" class="grayscale" alt="">
+                    <div class="projectdesc">
+                        <p>
+                            Video I shot and edited of WNBA All-Star Danielle Robinson while traveling overseas. I filmed with a Canon T3i DSLR and edited using Final Cut Pro X.
+                        </p>
+                        <p>
+                            <a href="http://youtu.be/z16qdpmsqKU" class="minibutton">view project</a>
+                        </p>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Older Brother</h2>
-                            <hr class="star-primary">
-                            <img src="jrob/IMG_3079.jpg" class="img-responsive img-centered" alt="">
-                            <p>I am older brother first. Its just the two of us but we've done so much growing over the past couple years its going to incredible where we are in life after several more good years.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Hometown</h2>
-                            <hr class="star-primary">
-                            <img src="jrob/IMG_0185.jpeg" class="img-responsive img-centered" alt="">
-                            <p>I am orginaly from San Jose, CA which is the south region of the Bay Area.  I am accustomed to warm weather, unique people, and seeing the water.  If you haven't been to  the bay yet you need to schedule a trip now.  Make sure to call me so I can show you around and some of the hidden gems the bay has to offer.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="jrob/DSC_6084.jpg" class="img-responsive img-centered" alt="">
-                            <p>I love to try new things. I believe traveling is the easiet to gain new experiences. I've been fortunate to live in mulptiple states acroos the US ans visit several countries internaionally.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="public/freelancer/img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="public/freelancer/img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-@stop
 
-@section('bottomscript')
-<script src="js/jquery-1.10.2.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cbpAnimatedHeader.js"></script>
-<script src="js/freelancer.js"></script>
-@stop
+                <div class="span4 portof">
+                        <img src="/afolique/theme/img/portofolio1/atbjonb.png" class="grayscale" alt="">
+                    <div class="projectdesc">
+                        <p>
+                            A short blog project I did for a little self discovery, develop some of my writing skills, and exploration around some scenic views in the bay area.
+                        </p>
+                        <p>
+                            <a href="http://www.atbjonb.tumblr.com" class="minibutton">view project</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <div class="pagebreak">
+            </div>
+            <br/>
+
+            <!-- CONTACT
+            ================================================== -->
+            <section id="contact">
+            <div class="separator"></div><br/>
+            <div class="row-fluid">
+                <div class="span12 addspace">
+                    <h1>GET IN TOUCH</h1>
+                </div>
+            </div>
+            <div class="row-fluid" style="min-height:520px;">
+                <div class="span7">
+                    <div class="done">
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert">x</button>
+                            <strong>Message sent successfully!</strong><br/>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <form method="post" action="contact.php" id="contactform">
+                            <table>
+                            <tbody>
+                            <tr class="element">
+                                <td class="noborder">
+                                </td>
+                                <td class="noborder">
+                                     <!-- Name--><input type="text" name="name" class="text input-xxlarge" placeholder="Name">
+                                </td>
+                            </tr>
+                            <tr class="element">
+                                <td class="noborder">
+                                </td>
+                                <td class="noborder">
+                                     <!-- Email--><input type="text" name="email" class="text input-xxlarge" placeholder="E-mail address">
+                                </td>
+                            </tr>
+                            <tr class="element texttop">
+                                <td class="noborder">
+                                </td>
+                                <td class="noborder">
+                                     <!-- Message--><textarea name="comment" class="text textarea input-xxlarge" rows="7" placeholder="Message, comments, feedback"></textarea>
+                                </td>
+                            </tr>
+                            <tr class="element">
+                                <td class="noborder">
+                                     &nbsp;
+                                </td>
+                                <td class="noborder">
+                                     <!-- Submit--><input type="submit" id="submit" class="btn" value="Submit">
+                                    <div class="loading">
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                            </table>
+                        </form>
+                    </div>
+            </div>
+        </section>
+        <br/>
+        
+        <!-- FOOTER
+            ================================================== -->
+        <div class="row-fluid">
+            <div class="span12 addspace center">
+                <p>
+                    <small>&copy; 2014 www.jonbrobinson.com</small>
+                </p>
+            </div>
+        </div>  
+        
+        <!-- CLOSE ALL DIVS
+            ================================================== -->      
+    </div><!--/.span9-->
+    </div><!--/.row-fluid-->
+</div><!--/.container-fluid-->
+
+<!-- Javascript placed at the end of the document so the pages load faster -->
+<script src="/afolique/theme/js/jquery.js"></script>
+<script src="/afolique/theme/js/jquery.nivo.slider.pack.js"></script>
+<script src="/afolique/theme/js/jquery.isotope.min.js"></script>
+<script src="/afolique/theme/js/bootstrap-alert.js"></script>
+<script src="/afolique/theme/js/formvalidation.js"></script>
+<script src="/afolique/theme/js/smoothscroll.js"></script>
+<script src="/afolique/theme/js/html5placeholder.jquery.js"></script>
+</body>
+</html>
