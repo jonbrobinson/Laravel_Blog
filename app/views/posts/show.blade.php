@@ -1,6 +1,5 @@
 @extends('layouts.master')
 
-
 @section('content')
 <div class="col-md-8 col-md-offset-2">
 	<h2>{{{$post->title}}}</h2>
