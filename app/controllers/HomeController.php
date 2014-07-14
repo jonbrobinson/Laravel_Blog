@@ -74,6 +74,9 @@ class HomeController extends BaseController {
 
 	public function resume_route()
 	{
+		$data = [
+		'title' => 'Resume',
+		];
 		return View::make('pages.resume');
 	}
 
