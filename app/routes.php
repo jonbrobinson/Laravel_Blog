@@ -18,6 +18,8 @@ Route::resource('posts', 'PostsController');
 
 Route::get('/resume','HomeController@resume_route');
 
+Route::get('/popshot','HomeController@popshot');
+
 Route::get('/','HomeController@portfolio_route');
 
 Route::get('/sayhello/{name}', 'HomeController@sayhello');
