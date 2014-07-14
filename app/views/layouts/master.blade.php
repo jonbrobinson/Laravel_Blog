@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    @if(Request::url() != action('HomeController@popshot'))
     <!-- Latest compiled and minified CSS -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -17,12 +19,15 @@
 	<link rel="stylesheet" type="text/css" href="/pagedown/demo/browser/demo.css" />
 
     <title>{{{ $title or "Laravel Blog" }}}</title>
+    @endif
+
     @yield('topscript')
 </head>
 
 
 <body id="{{{ $body_id or "" }}}"  class="{{{ $body_class or "" }}}">
 
+	@if(Request::url() != action('HomeController@popshot'))
 	<div class="container">
 
 		<!------ NavBar ------>
@@ -70,10 +75,10 @@
 		@if (Session::has('errorMessage'))
 			<div class="alert alert-danger fade_message">{{{ Session::get('errorMessage') }}}</div>
 		@endif
-
-
 	    @yield('content')
 	</div>
+	@endif
+	@yield('pop')
 
 	<script type="text/javascript" src="/pagedown/Markdown.Converter.js"></script>
 	<script type="text/javascript" src="/pagedown/Markdown.Sanitizer.js"></script>
