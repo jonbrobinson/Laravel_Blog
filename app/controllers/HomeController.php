@@ -77,4 +77,12 @@ class HomeController extends BaseController {
 		return View::make('pages.resume');
 	}
 
+	public function popshot()
+	{
+		$data = [
+		'title' => 'Pop-A-Shot',
+		];
+		return View::make('pages.popshot')->with($data);
+	}
+
 }
