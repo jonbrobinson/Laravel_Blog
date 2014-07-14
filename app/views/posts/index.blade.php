@@ -17,11 +17,11 @@
 	<div class="row">
 		<h4>Let's Connect</h4>
 		<ol class='breadcrumb'>
-			<li><a href="http://www.linkedin.com/pub/jonathan-robinson/13/36a/188"><i class="fa fa-linkedin fa-2x"></i></a></li>
+			<li><a href="http://www.linkedin.com/in/jonathanbrobinson"><i class="fa fa-linkedin fa-2x"></i></a></li>
 			<li><a href="mailto:jonbrobinson@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
-			<li><a href="http://www.github.com/jonbrobinson"><i class="fa fa-github fa-2x"></i></a></li>
 			<li><a href="http://www.facebook.com/jonbrobinson"><i class="fa fa-facebook fa-2x"></i></a><br></li>
-			<li><a href="http://www.instagram.com/jonbrobinson"><i class="fa fa-instagram fa-2x"></i></a><br></li>
+			<li><a href="http://www.github.com/jonbrobinson"><i class="fa fa-github fa-2x"></i></a></li>
+			<li><a href="http://www.twitter.com/jonbrobinson"><i class="fa fa-twitter fa-2x"></i></a><br></li>
 		</ol>
 
 		<br>
