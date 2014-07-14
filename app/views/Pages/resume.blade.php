@@ -74,6 +74,7 @@
           <li>HTML</li>
           <li>CSS</li>
           <li>MySQL</li>
+          <li>Twitter Bootstrap</li>
         </ul>
 
       </div><!--/span-->
