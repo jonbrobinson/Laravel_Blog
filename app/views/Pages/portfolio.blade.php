@@ -62,6 +62,8 @@
                     <a href="http://www.facebook.com/jonbrobinson" style="color:white"><i class="fa fa-facebook fa-2x"></i></a>
                     <a href="http://www.twitter.com/jonbrobinson" style="color:white"><i class="fa fa-twitter fa-2x"></i></a>
                     <a href="http://www.instagram.com/jonbrobinson" style="color:white"><i class="fa fa-instagram fa-2x"></i></a>
+                    <a href="http://www.linkedin.com/in/jonathanbrobinson" style="color:white"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a href="http://www.github.com/jonbrobinson" style="color:white"><i class="fa fa-github fa-2x"></i></a>
                 </div>
             </div>
         </div>
