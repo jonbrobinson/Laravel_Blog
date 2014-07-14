@@ -29,7 +29,7 @@
         <p><i class="fa fa-phone"></i><a href="tel:4082193418"> (408) 219-3418</a></p>
         <p><i class="fa fa-globe"></i><a href="http://www.jonbrobinson.com"> www.jonbrobinson.com</a></p>
         <p><i class="fa fa-envelope"></i><a href="mailto:jonbrobinson@gmail.com"> jonbrobinson@gmail.com</a></p>
-        <p><i class="fa fa-github fa-2x"></i> | <i class="fa fa-linkedin fa-2x"></i></p>
+        <p><a href="http://www.github.com/jonbrobinson" style="color: black"><i class="fa fa-github fa-2x"></i></a> | <a href="https://www.linkedin.com/in/jonathanbrobinson" style="color: black"><i class="fa fa-linkedin fa-2x"></i></a></p>
       </div><!--/contact -->
     </div> <!-- endWell -->
   </div> <!-- endSideBar -->
@@ -118,18 +118,28 @@
       <ul>
         <li>Built a Personal Blog using Laravel Framework, MySQL and Styled Using Twitter Bootstrap</li>
         <li>Worked on a 3 member team to build a Website to provide Jobs for middle school and hish schools for students.  Used HTML, CSS, Javascript, Laravel, MySQL, Twitter Bootstrap</li>
-        <li>Created a Whack-A-Mole game using HTML, CSS, Javascript, JQuery</li>
+        <li>Created a Pop-A-Shot game using HTML, CSS, Javascript, JQuery</li>
       </ul>
     </div>
     <div>
       <h4><i class="fa fa-suitcase"></i> Medtronic - Inside Sales Rep</h4>
-      <h5><i class="fa fa-calendar-o"></i> June 2012 - December 2013</h5>
+      <h5><i class="fa fa-calendar-o"></i> July 2012 - December 2013</h5>
         <p>Inside sales responsible for $100,000+ for medical devices.  Called patients, Medical offices and insurance companies to complete transacitons of medical products to help patients.  Work with outside team member </p>
+        <ul>
+          <li>Responsible for $100,000+ in revenue per month for insulin pump sales</li>
+          <li>Multiple Months w/Over 100% New Patients Conversion Rate</li>
+          <li>Top 20% of overall sales performance </li>
+        </ul>
     </div>
     <div>
       <h4><i class="fa fa-suitcase"></i> Stanford University - Event Manager</h4>
       <h5><i class="fa fa-calendar-o"></i> February 2010 - May 2012</h5>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <ul>
+        <li>Executes the game day management and operations of Stanford University athletic venue’s for 36 Varsity sports: from baseball- volleyball</li>
+        <li>Director of 12 member team to manage and execute game day operations for 50,000 capacity football Stadium on Varsity Game days (Ave 40,000 spectators)</li>
+        <li>Work Directly with Senior Athletic Director of Championships to coordinate operations for NCAA Sponsored Events</li>
+      </ul>
      </div><!--/span-->
   </div> <!-- endMainContent -->
 </div> <!-- endWholeContent -->
