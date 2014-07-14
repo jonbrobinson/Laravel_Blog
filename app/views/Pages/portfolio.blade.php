@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
 <meta charset="utf-8">
 <title>Jonathan Robinson</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +9,7 @@
 <!-- Styles -->
 <link href="/afolique/theme/css/style.css" rel="stylesheet">
 <link href="/afolique/theme/css/style-responsive.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- HTML5 for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -37,8 +37,6 @@
                     <a href="#home">Robinson</a>
                 </div>
                 <ul>
-                    <!-- MENU - Note that "#..." is the anchor id. Each one should correspond to our id sections below.
-                    ================================================== -->
                     <li><a class="home" href="#home">Home</a></li>
                     <li class="description">Sweet home</li>
 
@@ -61,9 +59,9 @@
                     <li class="description">Get in touch</li>
                 </ul>
                 <div class="social">
-                    <a href="http://www.facebook.com/jonbrobinson"><img src="/afolique/theme/img/facebook.png" alt=""></a>
-                    <a href="http://www.twitter.com/jonbrobinson"><img src="/afolique/theme/img/twitter.png" alt=""></a>
-                    <a href="http://www.linkedin.com/"><img src="img/twitter.png" alt=""></a>
+                    <a href="http://www.facebook.com/jonbrobinson" style="color:white"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a href="http://www.twitter.com/jonbrobinson" style="color:white"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="http://www.instagram.com/jonbrobinson" style="color:white"><i class="fa fa-instagram fa-2x"></i></a>
                 </div>
             </div>
         </div>
@@ -101,7 +99,7 @@
                         From the sunny Westcoast to the Far East I can honestly say I've been fortunate enough to travel the world.  Currrently I'm enjoying South Texas by calling home San Antonio.  I can't say that this is the final landing spot but for now I'm truly enjoying the southwestern appeal.
                     </p>
                     <p>
-                         Not Long ago I made the decision to become a programmer.  I found Codeup as opportunity to get me into the industry and haven't looked back since.  It's a few short weeks I have created a great portfolio website to demonstrate some of my skills. Hope you enjoy. Let's talk some more.
+                         Not to long ago I made the decision to become a programmer.  I found Codeup as opportunity to get me into the industry and haven't looked back since.  It's been a couple of months into the program and I have created a great website to demonstrate some of my skills. Hope you enjoy.
                     </p>
                 </div>
                 <div class="span4">
@@ -154,19 +152,13 @@
                 <div class="span6">
                     <span class="servicetitle">Web Development</span>
                     <p>
-                        COming from a non-technical background I am still constantly learning but I a great fundamental ability as both a frnt-end and backend developer.  more importantly I have learned to learn languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.
-                    </p>
-                    <p>
-                        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+                        I am still constantly learning but I have a great fundamental ability as both a front-end and back-end developer.  I like to deconstruct my problems when I come across them and thats really the best way I learn.  What sets me apart from others is that I have learned to learn languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.
                     </p>
                 </div>
                 <div class="span6">
                     <span class="servicetitle grey">Sales</span>
                     <p>
-                        Befoe web development I was building my career as an inside sales rep calling customers and partner organizations closing deals and building reputations with partnering companies. I am familiar with a sales cylce and overcoming objection
-                    </p>
-                    <p>
-                         Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+                        Before web development I was building my career as a sales rep. My job was to connect thecall customers and partner organizations to close deals and build reputations with partnering companies. Some of the skills I gained from sales was learning to build rapport with people and trying to connect their needs with the products we sold.  Even though I no longer work for that company any more I appreciate the value skills I gained.
                     </p>
                 </div>
             </div>
@@ -177,17 +169,11 @@
                     <p>
                          My expertise comes from working multple sporting events at an active colege.  I was involved in a lot of the manual labor innvoled of setting a facilty up and breaking down.  Also Had to organize others in Gameday execution on running an active facility with over 15,000 attendees.
                     </p>
-                    <p>
-                         Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
-                    </p>
                 </div>
                 <div class="span6">
                     <span class="servicetitle">Creative Content</span>
                     <p>
                         Outside of my professional life I'm very interested in Digital content and producing online content.  I am self taught and educated when it comes to video production.  My passion for Digital content is a true hobby.  Getting paid would nice but if I never got paid to continue developing my skils I will be happy.  
-                    </p>
-                    <p>
-                        Check out some of my work below.
                     </p>
                 </div>
             </div>
@@ -231,10 +217,10 @@
                 </div>
 
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/popshotscreenshot.png" class="grayscale" alt="">
+                        <img src="/afolique/theme/img/portofolio1/homesitescreenshot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            Michael Jordan inspired Pop - A - Shot game created using Javascript, JQuery, HTML, and CSS.  Nothing complicated but a game to demonstrate basic skills.
+                            My Personal Landing Page. I used HTML, CSS, Twitter Bootstrap, AJAX, Javascript, PHP to build this site and wanted to show some things  could do.
                         </p>
                         <p>
                             <a href="#" class="minibutton">view project</a>
@@ -246,13 +232,13 @@
             <!-- Second portofolio simple row-->
             <div class="row-fluid">
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/comingsoon.png" class="grayscale" alt="">
+                        <img src="/afolique/theme/img/portofolio1/popshotscreenshot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum mas.
+                            Michael Jordan inspired Pop - A - Shot game created using Javascript, JQuery, HTML, and CSS.  Nothing complicated but a game to demonstrate basic skills.
                         </p>
                         <p>
-                            <a href="#" class="minibutton">view project</a>
+                            <a href="/popshot" class="minibutton">view project</a>
                         </p>
                     </div>
                 </div>
@@ -261,7 +247,7 @@
                         <img src="/afolique/theme/img/portofolio1/danielleYTScreenShot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            Video I shot and edited of WNBA All-Star Danielle Robinson while traveling overseas. I filmed with a Canon T3i DSLR and edited using Final Cut Pro X.
+                            Cribs video I shot and edited of WNBA All-Star Danielle Robinson while traveling overseas. I filmed with a Canon T3i DSLR and edited using Final Cut Pro X.
                         </p>
                         <p>
                             <a href="http://youtu.be/z16qdpmsqKU" class="minibutton">view project</a>
@@ -304,7 +290,7 @@
                         </div>
                     </div>
                     <div class="form">
-                        <form method="post" action="contact.php" id="contactform">
+                        <form method="post" action="/afolique/theme/contact.php" id="contactform">
                             <table>
                             <tbody>
                             <tr class="element">
