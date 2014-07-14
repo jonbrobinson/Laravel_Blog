@@ -1,0 +1,59 @@
+#Bonus {
+	color: red;
+	font-size: 30px;
+}
+
+#container{
+	border: 1px solid black;
+	height: 600px;
+	margin: auto;
+	width: 600px;
+	cursor: url('/img/basketball.png'), auto;
+}
+
+#start_game {
+	color: blue;
+	cursor: pointer;
+	background-color: white;
+	padding: 5px;
+	box-shadow: 5px 5px 2px #888888;
+	border: 1px solid;
+    border-radius: 25px;
+}
+
+#face_pic {
+	display: none;
+}
+
+.box {
+	border: 1px solid red;
+	width: 198px;
+	height: 198px;
+	float: left;
+}
+
+.pop_backboard {
+	display: none;
+}
+
+body {
+	background-image: url('/img/jordan-background.jpg');
+	background-size: 100% auto;
+}
+
+header {
+	margin: auto;
+}
+
+
+h1,
+h2 {
+	color: white;
+	text-align: center;
+}
+
+h3{
+	color: white;
+	text-align: center;
+
+}
