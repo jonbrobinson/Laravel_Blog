@@ -98,10 +98,10 @@
                 <div class="span8">
                     <h1>ABOUT ME</h1>
                     <p>
-                        From the sunny Westcoast to the Far East I can honestly say I've been fortunate enough to travel the world.  Currrently I'm enjoying South Texas by calling home San Antonio.  I can't say that this is the final landing spot but for now I'm truly enjoying the southwestern appeal.
+                        From the sunny Westcoast to the Far East I can honestly say I've been fortunate enough to travel inside and outside of the US.  Currrently I'm enjoying South Texas by calling home San Antonio.  I can't say that this is the final landing spot but for now I'm truly enjoying the southwestern appeal.
                     </p>
                     <p>
-                         Not to long ago I made the decision to become a programmer.  I found Codeup as opportunity to get me into the industry and haven't looked back since.  It's been a couple of months into the program and I have created a great website to demonstrate some of my skills. Hope you enjoy.
+                         Not to long ago I made the decision to become a programmer.  I found Codeup as opportunity to get me into the industry and I haven't looked back since.  It's been a couple of months into the program and I have created an awesome website to demonstrate my skills. Hope you enjoy visiting my page.
                     </p>
                 </div>
                 <div class="span4">
@@ -121,7 +121,7 @@
                 <div class="span4">
                     <h2>Why choose me</h2>
                     <p>
-                         Not only am I a hard worker but I like to get things done right.  I add a personality to any team I join. I am looking forward to working with you to build great things.
+                         Not only am I a hard worker but I like to get things done right.  I add leadership skills to any team I join. I am looking forward to working with you to build great things.
                     </p>
                     <p class="fancystyle">
                          Professional
@@ -160,7 +160,7 @@
                 <div class="span6">
                     <span class="servicetitle grey">Sales</span>
                     <p>
-                        Before web development I was building my career as a sales rep. My job was to connect thecall customers and partner organizations to close deals and build reputations with partnering companies. Some of the skills I gained from sales was learning to build rapport with people and trying to connect their needs with the products we sold.  Even though I no longer work for that company any more I appreciate the value skills I gained.
+                        Before web development I was building my career as a sales rep. My job was to contact potential clients, assess their needs and provide the appropiate medical solutions. My position helped me develop my written and verbal communication skills, critical thinking, and decision making skills. These are necessary skills to help the company meet its monthy and annual sales goals.
                     </p>
                 </div>
             </div>
@@ -169,13 +169,13 @@
                 <div class="span6">
                     <span class="servicetitle grey">Event Management</span>
                     <p>
-                         My expertise comes from working multple sporting events at an active colege.  I was involved in a lot of the manual labor innvoled of setting a facilty up and breaking down.  Also Had to organize others in Gameday execution on running an active facility with over 15,000 attendees.
+                         My expertise comes from managing and coordinating various sporting events at Stanford University. As a team supervisor my task included gameday preparations for all sporting events,  including facility set-up, visiting team accomodations, and and breaking down.  These efforts were required for events ranging from 1,000 - 50,000+ attendees.
                     </p>
                 </div>
                 <div class="span6">
                     <span class="servicetitle">Creative Content</span>
                     <p>
-                        Outside of my professional life I'm very interested in Digital content and producing online content.  I am self taught and educated when it comes to video production.  My passion for Digital content is a true hobby.  Getting paid would nice but if I never got paid to continue developing my skils I will be happy.  
+                        Outside of my professional life I'm very interested in producting digital content and online content.  This is truly a self taught hobby.  My experience comes from projects I find interesting.  I have done projects that have involved photography, film and creative writing.
                     </p>
                 </div>
             </div>
