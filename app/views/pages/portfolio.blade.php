@@ -106,7 +106,7 @@
                 </div>
                 <div class="span4">
                     <div class="tdiv t5">
-                        You want somebody who's going to bring personality, life experience and hard work to your team.   <br/><br/>
+                        I am somebody who's going to bring dedication, commitment, and hard work to your team.   <br/><br/>
                         <p>
                          Contact me through my social networks or through my contact form below. Let's do some business together.
                         </p>
@@ -160,7 +160,7 @@
                 <div class="span6">
                     <span class="servicetitle grey">Sales</span>
                     <p>
-                        Before web development I was building my career as a sales rep. My job was to contact potential clients, assess their needs and provide the appropiate medical solutions. My position helped me develop my written and verbal communication skills, critical thinking, and decision making skills. These are necessary skills to help the company meet its monthy and annual sales goals.
+                        Before web development I was building my career as a sales rep. My job was to contact potential clients, assess their needs and provide the appropiate medical solutions. My position helped me develop written and verbal communication skills, critical thinking, and decision making abilities. These were necessary skills to help the company meet its monthy and annual sales goals.
                     </p>
                 </div>
             </div>
@@ -169,7 +169,7 @@
                 <div class="span6">
                     <span class="servicetitle grey">Event Management</span>
                     <p>
-                         My expertise comes from managing and coordinating various sporting events at Stanford University. As a team supervisor my task included gameday preparations for all sporting events,  including facility set-up, visiting team accomodations, and and breaking down.  These efforts were required for events ranging from 1,000 - 50,000+ attendees.
+                         My expertise comes from managing and coordinating various sporting events at Stanford University. As a team supervisor my task included gameday preparations for all sporting events; including facility set-up, visiting team accomodations, and and breaking down.  These efforts were required for events ranging from 1,000 - 50,000+ attendees.
                     </p>
                 </div>
                 <div class="span6">
@@ -222,7 +222,7 @@
                         <img src="/afolique/theme/img/portofolio1/homesitescreenshot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            My Personal Landing Page. I used HTML, CSS, Twitter Bootstrap, AJAX, Javascript, PHP to build this site and wanted to show some things  could do.
+                            My personal landing page. I used HTML, CSS, Twitter Bootstrap, AJAX, Javascript, PHP to build this site and wanted to display some coding skill sets.
                         </p>
                         <p>
                             <a href="#" class="minibutton">view project</a>
