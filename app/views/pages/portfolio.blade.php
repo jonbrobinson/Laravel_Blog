@@ -101,7 +101,7 @@
                         From the sunny Westcoast to the Far East I can honestly say I've been fortunate enough to travel inside and outside of the US.  Currrently I'm enjoying South Texas by calling home San Antonio.  I can't say that this is the final landing spot but for now I'm truly enjoying the southwestern appeal.
                     </p>
                     <p>
-                         Not to long ago I made the decision to become a programmer.  I found Codeup as opportunity to get me into the industry and I haven't looked back since.  It's been a couple of months into the program and I have created an awesome website to demonstrate my skills. Hope you enjoy visiting my page.
+                         Not too long ago I made the decision to become a programmer.  I found Codeup as opportunity to get me into the industry and I haven't looked back since.  It's been a couple of months into the program and I have created an awesome website to demonstrate my skills. Hope you enjoy visiting my page.
                     </p>
                 </div>
                 <div class="span4">
@@ -130,7 +130,7 @@
                 <div class="span4">
                     <h2>My Experience</h2>
                     <p>
-                         I am new to web development but more than prepared to help you solve some problems.  From my portfolio you can see some of the projects i have worked and I can't wait to show you more.
+                         I am new to web development but more than prepared to help you solve some problems.  From my portfolio you can see some of the projects I have worked and I can't wait to show you more.
                     </p>
                     <p class="fancystyle">
                          Enthusiastic
@@ -154,13 +154,13 @@
                 <div class="span6">
                     <span class="servicetitle">Web Development</span>
                     <p>
-                        I am still constantly learning but I have a great fundamental ability as both a front-end and back-end developer.  I like to deconstruct my problems when I come across them and thats really the best way I learn.  What sets me apart from others is that I have learned to learn languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.
+                        I am still constantly learning but I have a great fundamental ability as both a front-end and back-end developer.  I like to deconstruct my problems when I come across them and thats really the best way I learn.  What sets me apart from others is that I have learned several languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.
                     </p>
                 </div>
                 <div class="span6">
                     <span class="servicetitle grey">Sales</span>
                     <p>
-                        Before web development I was building my career as a sales rep. My job was to contact potential clients, assess their needs and provide the appropiate medical solutions. My position helped me develop written and verbal communication skills, critical thinking, and decision making abilities. These were necessary skills to help the company meet its monthy and annual sales goals.
+                        Before web development I was building my career as a sales rep. My job was to contact potential clients, assess their needs and provide the appropiate medical equipment. My position helped me develop written and verbal communication skills, critical thinking, and decision making abilities. These were necessary skills to help the company meet its monthy and annual sales goals.
                     </p>
                 </div>
             </div>
@@ -169,7 +169,7 @@
                 <div class="span6">
                     <span class="servicetitle grey">Event Management</span>
                     <p>
-                         My expertise comes from managing and coordinating various sporting events at Stanford University. As a team supervisor my task included gameday preparations for all sporting events; including facility set-up, visiting team accomodations, and and breaking down.  These efforts were required for events ranging from 1,000 - 50,000+ attendees.
+                         My expertise comes from managing and coordinating various sporting events at Stanford University. As a team supervisor my tasks included gameday preparations for all sporting events; including facility set-up, visiting team accomodations, and aftergame clean up.  These efforts were required for events ranging from 1,000 - 50,000+ attendees.
                     </p>
                 </div>
                 <div class="span6">
