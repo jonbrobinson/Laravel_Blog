@@ -154,7 +154,7 @@
                 <div class="span6">
                     <span class="servicetitle">Web Development</span>
                     <p>
-                        I am still constantly learning but I have a great fundamental ability as both a front-end and back-end developer.  I like to deconstruct my problems when I come across them and thats really the best way I learn.  What sets me apart from others is that I have learned several languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.
+                        I am still constantly learning but I have a great fundamental ability as both a front-end and back-end developer.  I like to deconstruct my problems when I come across them and thats really the best way I learn.  What sets me apart from others is that I have learned several languages quickly and if there's something I don't know then I can teach myself that lesson without much guidance.
                     </p>
                 </div>
                 <div class="span6">
