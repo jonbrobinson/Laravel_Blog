@@ -8,10 +8,6 @@ class Post extends BaseModel {
     protected $imgDir = 'img-upload';
 
     //=========Validation rules for our model
-    static public $rules = [
-    	'title' => 'required|max:100',
-    	'body' => 'required'
-    ];
 
     public function user()
 	{
