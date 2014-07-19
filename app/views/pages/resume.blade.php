@@ -51,7 +51,7 @@
     <div>
       <div>
         <h4><i class="fa fa-graduation-cap"></i> Codeup - Web Development</h4>
-        <p>Codeup has been Codeup is a 12 week  bootcamp that turns non-techies into programmers. COming from a non-technical background I am still constantly learning but I a great fundamental ability as both a frnt-end and backend developer.  more importantly I have learned to learn languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.</p>
+        <p>Codeup is a 12 week  bootcamp that turns non-techies into programmers. Coming from a non-technical background I am still constantly learning but I a great fundamental ability as both a frnt-end and backend developer.  More importantly I have learned to learn languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.</p>
       </div><!--endRow-->
       <div>
         <h4><i class="fa fa-graduation-cap"></i> Hampton University - BS Marketing</h4>
@@ -88,21 +88,21 @@
     <div class="row">
       <div class="col-md-6">
         <h4><i class="fa fa-plus"></i> Web Development</h4>
-        <p>In my short time as a developer I have built several sites which ranged from a job for recent college grads and a portflio to promote myself along with a blog.  I have also created a Pop A Shot game from Javascript and JQuery. PLus an address book using PHP and MySQL </p>
+        <p>I am still constantly learning but I have a great fundamental ability as both a front-end and back-end developer.  I like to deconstruct my problems when I come across them and thats really the best way I learn.  What sets me apart from others is that I have learned several languages quickly and if there's something I don't know then I can teach myself that lesson without much guidance.</p>
       </div>
       <div class="col-md-6">
         <h4><i class="fa fa-plus"></i> Sales</h4>
-        <p>Befoe web development I was building my career as an inside sales rep calling customers and partner organizations closing deals and building reputations with partnering companies. I am familiar with a sales cylce and overcoming objection</p>
+        <p>Before web development I was building my career as a sales rep. My job was to contact potential clients, assess their needs and provide the appropiate medical equipment. My position helped me develop written and verbal communication skills, critical thinking, and decision making abilities. These were necessary skills to help the company meet its monthy and annual sales goals.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
         <h4><i class="fa fa-plus"></i> Event Management</h4>
-        <p>My expertise comes from working multple sporting events at an active colege.  I was involved in a lot of the manual labor innvoled of setting a facilty up and breaking down.  Also Had to organize others in Gameday execution on running an active facility with over 15,000 attendees. </p>
+        <p>My expertise comes from managing and coordinating various sporting events at Stanford University. As a team supervisor my tasks included gameday preparations for all sporting events; including facility set-up, visiting team accomodations, and aftergame clean up.  These efforts were required for events ranging from 1,000 - 50,000+ attendees.</p>
       </div>
       <div class="col-md-6">
         <h4><i class="fa fa-plus"></i> Digital Content</h4>
-        <p>Outside of my professional life I'm very interested in Digital content and producing online content. I am self taught and educated when it comes to video production. My passion for Digital content is a true hobby. Getting paid would nice but if I never got paid to continue developing my skils I will be happy.</p>
+        <p>Outside of my professional life I'm very interested in producting digital content and online content.  This is truly a self taught hobby.  My experience comes from projects I find interesting.  I have done projects that have involved photography, film and creative writing.</p>
       </div>
     </div> <!-- endRow -->
 
@@ -114,7 +114,7 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Freelance Web Developer</h4>
       <h5><i class="fa fa-calendar-o"></i> May 2014</h5>
-      <p>As a freelance Developer I worked on several projects for practicaluses and personal interest.</p>
+      <p>As a freelance Developer I worked on several projects for practical uses and personal interest.</p>
       <ul>
         <li>Built a Personal Blog using Laravel Framework, MySQL and Styled Using Twitter Bootstrap</li>
         <li>Worked on a 3 member team to build a Website to provide Jobs for middle school and hish schools for students.  Used HTML, CSS, Javascript, Laravel, MySQL, Twitter Bootstrap</li>
@@ -124,7 +124,7 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Medtronic - Inside Sales Rep</h4>
       <h5><i class="fa fa-calendar-o"></i> July 2012 - December 2013</h5>
-        <p>Inside sales responsible for $100,000+ for medical devices.  Called patients, Medical offices and insurance companies to complete transacitons of medical products to help patients.  Work with outside team member </p>
+        <p>As a DTA I was responsible for closing sales on our Medical Equipment for Diabetes patient. I worked closely with with an outside counter part to help generate leads and bring new customers to my sales pipeline. I also had to talk with medical offices and facilities to gather paperwork to process patients medical devices.</p>
         <ul>
           <li>Responsible for $100,000+ in revenue per month for insulin pump sales</li>
           <li>Multiple Months w/Over 100% New Patients Conversion Rate</li>
@@ -134,7 +134,7 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Stanford University - Event Manager</h4>
       <h5><i class="fa fa-calendar-o"></i> February 2010 - May 2012</h5>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <p>I worked as a facilities manager on game days for most sports on campus. I had to make sure Facilities were prepared and ready to operate at maximum capacity and solve problems when typical large venue events where going on. I also worked several NCAA Championship Hosted events which involved collaborating with the NCAA to execute championship operations.</p>
       <ul>
         <li>Executes the game day management and operations of Stanford University athletic venue’s for 36 Varsity sports: from baseball- volleyball</li>
         <li>Director of 12 member team to manage and execute game day operations for 50,000 capacity football Stadium on Varsity Game days (Ave 40,000 spectators)</li>
