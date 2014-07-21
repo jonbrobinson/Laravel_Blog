@@ -98,7 +98,7 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Medtronic - Inside Sales Rep</h4>
       <h5><i class="fa fa-calendar-o"></i> July 2012 - December 2013</h5>
-        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for Diabete patients. I worked closely with our external field rep to support client oppotunities. Position also involved verbal and wriiten communication with medical offices for processing new sales. I also had to talk with medical offices and facilities to gather paperwork to process patients medical devices.</p>
+        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for Diabete patients. I worked closely with our external field rep to support client oppotunities. Position involved verbal and written communication with medical offices for processing new sales of medical devices.</p>
         <ul>
           <li>Responsible for $100,000+ in revenue per month for insulin pump sales</li>
           <li>Achieved sales goal Months w/Over 100% New Patients Conversion Rate</li>
@@ -108,7 +108,7 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Stanford University - Event Manager</h4>
       <h5><i class="fa fa-calendar-o"></i> February 2010 - May 2012</h5>
-      <p>Position as an event manager responsible for coordinating all gameday activities for all major sporting events.  My tasks included  setting up of sporting venues and preperation to operate for maximum capacity attendees.  I was responsible for resolving gameday issues as they arose. Other responsibilities included special assigments working with the NCAA organization for championship hosted events at Stanford.</p>
+      <p>Position as an event manager responsible for coordinating gameday activities for all major sporting events.  My tasks included  setting up of sporting venues and preparation to operate for maximum capacity attendees.  I was responsible for resolving gameday issues as they arose. Other responsibilities included special assigments working with the NCAA organization for championship hosted events at Stanford.</p>
       <ul>
         <li>Executes the game day management and operations of Stanford University athletic venue’s for 36 Varsity sports: from baseball- volleyball. Task included: facility set-up, visiting team accomodations, and aftergame clean up.</li>
         <li>Manager of 12 member team to manage and support game day operations for 50,000 capacity football Stadium on Varsity Game days (Ave 40,000 spectators)</li>
