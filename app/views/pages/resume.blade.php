@@ -128,7 +128,7 @@
     <h2>Extra Curriculars.</h2>
     <hr />
     </div>
-    <div>a
+    <div>
       <h4><strong>Volunteer Services</strong></h4>
       <p>It is a personal commitment of mine to volunteer my time and resources to help those less fortunate when possible.</p>
       <h5>Through Sports</h5>
