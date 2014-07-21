@@ -118,9 +118,29 @@
       </ul>
     </div><!--/span-->
     <div>
-      <h4><i class="fa fa-suitcase"></i> Bellarmine College Preparatory - Community Service Counsler</h4>
+      <h4><i class="fa fa-suitcase"></i> Bellarmine College Preparatory - Community Service Counselor</h4>
       <h5><i class="fa fa-calendar-o"></i> August 2008 - June 2009</h5>
-      <p>One year position at private high school monitoring the community service projects of students.  Proficient in MS office suite software (Word, Excel, Powerpoint, Access). Duties included monitoring service hours, identifying and aassigning volunteer oppotunitunities and reporting student activities to school personal.</p>
+      <p>One year position at private high school monitoring the community service projects of students.  Proficient in MS office suite software (Word, Excel, Powerpoint, Access). Duties included monitoring service hours, identifying and aassigning volunteer oppotunitunities and reporting student activities to school personnel.</p>
+    </div>
+
+    <!---------- Extra Curriculars ---------->
+    <div class="header">
+    <h2>Extra Curriculars.</h2>
+    <hr />
+    </div>
+    <div>
+      <p>It is a personal ____ and passion of mine to volunteer my time and resources to help those less forunate.</p>
+      <h4>Through Sport</h4>
+      <p>engaged in outreach outreach program</p>
+
+      <h4>Through education</h4>
+      <p>Provided community service opportunities for students and took them through an eimmersion experience to explore lower economic disadvantages.</p>
+      <ul>
+        <li>Participated in several excursions to the phillipines</li>
+        <li>Volunterred for several local clean up campaigns</li>
+        <li>Weendend immersion examing lower economic families within the city</li>
+        <li>Outreach to inmates thhrough basketball at san quentin prison </li>
+      </ul>
     </div>
   </div> <!-- endMainContent -->
 </div> <!-- endWholeContent -->
