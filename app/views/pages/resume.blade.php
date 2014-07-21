@@ -98,11 +98,11 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Medtronic - Inside Sales Rep</h4>
       <h5><i class="fa fa-calendar-o"></i> July 2012 - December 2013</h5>
-        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for Diabetes patient. I worked closely with with an outside counter part to help generate leads and bring new customers to my sales pipeline. I also had to talk with medical offices and facilities to gather paperwork to process patients medical devices.</p>
+        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for Diabete patients. I worked closely with our extexernal field rep to support client oppotunities. Position also involved verbal and wriiten communication with medical offices for processing new sales. I also had to talk with medical offices and facilities to gather paperwork to process patients medical devices.</p>
         <ul>
           <li>Responsible for $100,000+ in revenue per month for insulin pump sales</li>
-          <li>Multiple Months w/Over 100% New Patients Conversion Rate</li>
-          <li>Top 20% of overall sales performance </li>
+          <li>Achieved sales goal Months w/Over 100% New Patients Conversion Rate</li>
+          <li>Achieved individual sales goals established by management</li>
         </ul>
     </div>
     <div>
