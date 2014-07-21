@@ -55,7 +55,7 @@
       </div><!--endRow-->
       <div>
         <h4><i class="fa fa-graduation-cap"></i> Hampton University - BS Marketing, <em>Hampton, VA</em></h4>
-        <p>At Hampton I graduated with honors and was a two-sport Athlete who competed in Men's Track and Field and Men's Basketball. Learned a ot of great lessons as an anthlete such as Teamwork, Leadership and Hardwork.</p>
+        <p>At Hampton, I graduated with honors with a degree in Marketing. I also was a two-sport Athlete who competed on the  Men's Track and Field and Basketball teams.</p>
       </div><!--endRow-->
     </div>
 
@@ -80,32 +80,6 @@
       </div><!--/span-->
     </div><!--/row-->
 
-    <!---------- Expertise ---------->
-    <div class="header">
-    <h2>Expertise.</h2>
-    <hr />
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <h4><i class="fa fa-plus"></i> Web Development</h4>
-        <p>I am still constantly learning but I have a great fundamental ability as both a front-end and back-end developer.  I like to deconstruct my problems when I come across them and thats really the best way I learn.  What sets me apart from others is that I have learned several languages quickly and if there's something I don't know then I can teach myself that lesson without much guidance.</p>
-      </div>
-      <div class="col-md-6">
-        <h4><i class="fa fa-plus"></i> Sales</h4>
-        <p>Before web development I was building my career as a sales rep. My job was to contact potential clients, assess their needs and provide the appropiate medical equipment. My position helped me develop written and verbal communication skills, critical thinking, and decision making abilities. These were necessary skills to help the company meet its monthy and annual sales goals.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <h4><i class="fa fa-plus"></i> Event Management</h4>
-        <p>My expertise comes from managing and coordinating various sporting events at Stanford University. As a team supervisor my tasks included gameday preparations for all sporting events; including facility set-up, visiting team accomodations, and aftergame clean up.  These efforts were required for events ranging from 1,000 - 50,000+ attendees.</p>
-      </div>
-      <div class="col-md-6">
-        <h4><i class="fa fa-plus"></i> Digital Content</h4>
-        <p>Outside of my professional life I'm very interested in producting digital content and online content.  This is truly a self taught hobby.  My experience comes from projects I find interesting.  I have done projects that have involved photography, film and creative writing.</p>
-      </div>
-    </div> <!-- endRow -->
-
     <!---------- Work Experience ---------->
     <div class="header">
     <h2>Work Experience.</h2>
@@ -114,17 +88,17 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Freelance Web Developer</h4>
       <h5><i class="fa fa-calendar-o"></i> May 2014</h5>
-      <p>As a freelance Developer I worked on several projects for practical uses and personal interest.</p>
+      <p>I completed several projects for work application and personal development</p>
       <ul>
         <li>Built a Personal Blog using Laravel Framework, MySQL and Styled Using Twitter Bootstrap</li>
-        <li>Worked on a 3 member team to build a Website to provide Jobs for middle school and hish schools for students.  Used HTML, CSS, Javascript, Laravel, MySQL, Twitter Bootstrap</li>
+        <li>Worked on a 3 member team to build a Website to provide Jobs for middle school and high school students.  Used HTML, CSS, Javascript, Laravel, MySQL, Twitter Bootstrap</li>
         <li>Created a Pop-A-Shot game using HTML, CSS, Javascript, JQuery</li>
       </ul>
     </div>
     <div>
       <h4><i class="fa fa-suitcase"></i> Medtronic - Inside Sales Rep</h4>
       <h5><i class="fa fa-calendar-o"></i> July 2012 - December 2013</h5>
-        <p>As a DTA I was responsible for closing sales on our Medical Equipment for Diabetes patient. I worked closely with with an outside counter part to help generate leads and bring new customers to my sales pipeline. I also had to talk with medical offices and facilities to gather paperwork to process patients medical devices.</p>
+        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for Diabetes patient. I worked closely with with an outside counter part to help generate leads and bring new customers to my sales pipeline. I also had to talk with medical offices and facilities to gather paperwork to process patients medical devices.</p>
         <ul>
           <li>Responsible for $100,000+ in revenue per month for insulin pump sales</li>
           <li>Multiple Months w/Over 100% New Patients Conversion Rate</li>
