@@ -50,11 +50,11 @@
     </div>
     <div>
       <div>
-        <h4><i class="fa fa-graduation-cap"></i> Codeup - Web Development</h4>
-        <p>Codeup is a 12 week  bootcamp that turns non-techies into programmers. Coming from a non-technical background I am still constantly learning but I a great fundamental ability as both a frnt-end and backend developer.  More importantly I have learned to learn languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.</p>
+        <h4><i class="fa fa-graduation-cap"></i> Codeup - Web Development, <em>San Antonio, TX</em></h4>
+        <p>Completed a 12 week bootcamp to develop skills in the following programming languages. HTML, CSS, Javascript, JQuery, PHP, Laravel, Twitter Bootstrap. I have a great fundamental ability as both a front-end and backend developer.  More importantly the ability to learn languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.</p>
       </div><!--endRow-->
       <div>
-        <h4><i class="fa fa-graduation-cap"></i> Hampton University - BS Marketing</h4>
+        <h4><i class="fa fa-graduation-cap"></i> Hampton University - BS Marketing, <em>Hampton, VA</em></h4>
         <p>At Hampton I graduated with honors and was a two-sport Athlete who competed in Men's Track and Field and Men's Basketball. Learned a ot of great lessons as an anthlete such as Teamwork, Leadership and Hardwork.</p>
       </div><!--endRow-->
     </div>
