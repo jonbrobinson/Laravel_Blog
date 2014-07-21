@@ -39,7 +39,7 @@
   <div class="col-md-8">
     <div class="row">
       <div class="well">
-      <p>I am Full Stack Web Developer from California currently living in Texas, now looking for opportunities as a Web Developer for a great company.  I have a background in Sales and Event management, Now I am looking to advance my career as a web developer. I am really interested in company culture for my next position.  If my next job will allow me to exercise in the morning, meet plenty of interesting people and develop life long skills then I believe we should connect.  In return I can give you or your team an individual who's ready to work hard and do great things for your company. Check out the rest of my resume and see if we can be a good fit. But I already know I am so send me an email and we can connect.</p>
+      <p>I am Full Stack Web Developer looking for employment opportunities as a web developer.  My previous enployment backgroung includes positions in sales and event management. In return I can contribute individually or within a team organizational matrix. give you or your team an individual who's ready to work hard and do great things for your company.</p>
       </div> <!-- endWell -->
     </div> <!-- endRow -->
 
