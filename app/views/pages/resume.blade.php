@@ -39,7 +39,7 @@
   <div class="col-md-8">
     <div class="row">
       <div class="well">
-      <p>I am Full Stack Web Developer looking for employment opportunities as a web developer.  My previous enployment backgroung includes positions in sales and event management. In return I can contribute individually or within a team organizational matrix.</p>
+      <p>I am a Full Stack Web Developer looking for employment opportunities as a web developer.  My previous employment background includes positions in sales, event management, and community service coordination. I can contribute individually or within a team organizational matrix.</p>
       </div> <!-- endWell -->
     </div> <!-- endRow -->
 
