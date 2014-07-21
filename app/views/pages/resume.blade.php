@@ -108,10 +108,12 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Stanford University - Event Manager</h4>
       <h5><i class="fa fa-calendar-o"></i> February 2010 - May 2012</h5>
-      <p>I worked as a facilities manager on game days for most sports on campus. I had to make sure Facilities were prepared and ready to operate at maximum capacity and solve problems when typical large venue events where going on. I also worked several NCAA Championship Hosted events which involved collaborating with the NCAA to execute championship operations.</p>
+      <p>Position as a facilities manager responsible for coordinating all activities during gameday for all major sporting events.  My task included making sure sporting venues were set up, prepared and ready to operate for maximum capacity attendees.  Also had to resolve gameday issues as they arose. Other duties included special assignement working with the NCAA for championship hosted events at Stanford.</p>
       <ul>
-        <li>Executes the game day management and operations of Stanford University athletic venue’s for 36 Varsity sports: from baseball- volleyball</li>
-        <li>Director of 12 member team to manage and execute game day operations for 50,000 capacity football Stadium on Varsity Game days (Ave 40,000 spectators)</li>
+        <li>Executes the game day management and operations of Stanford University athletic venue’s for 36 Varsity sports: from baseball- volleyball. Task included: facility set-up, visiting team accomodations, and aftergame clean up.</li>
+        <li>Manager of 12 member team to manage and support game day operations for 50,000 capacity football Stadium on Varsity Game days (Ave 40,000 spectators)</li>
+        <li>Selected by Golf department to Set-Up and monitor course during NCAA Hosted tornaments</li>
+        <li>Selected to supervise a team of 15 to manage baseball facaility and execute gameday operations</li>
         <li>Work Directly with Senior Athletic Director of Championships to coordinate operations for NCAA Sponsored Events</li>
       </ul>
      </div><!--/span-->
