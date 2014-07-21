@@ -128,18 +128,18 @@
     <h2>Extra Curriculars.</h2>
     <hr />
     </div>
-    <div>
-      <h4><strong>Volunteer</strong></h4>
+    <div>a
+      <h4><strong>Volunteer Services</strong></h4>
       <p>It is a personal commitment of mine to volunteer my time and resources to help those less fortunate when possible.</p>
       <h5>Through Sports</h5>
       <ul>
-        <li>Participated in several excursions to the phillipines</li>
-        <li>Engaged in outreach prison ministry at San Quention correctional facility in San Rafeal</li>
-        <li>Coahed high school basketball for several organizations</li>
+        <li>Participated in several Missionary Excursions to the Phillipines</li>
+        <li>Engaged in Outreach Prison Ministry at San Quention Correctional Facility in San Rafael, CA</li>
+        <li>Coached high school basketball teams for several organizations</li>
       </ul>
       <h5>Through Education</h5>
       <ul>
-        <li>Volunterred for several local neighborhood clean up campaigns</li>
+        <li>Volunteered for several local neighborhood clean up campaigns</li>
         <li>Participated in a weekend immersion examining homeless conditions within the city</li>
         <li>Managed several large donation drives to collect food and clothes for those less fortunate</li>
       </ul>
