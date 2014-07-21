@@ -116,7 +116,12 @@
         <li>Selected to supervise a team of 15 employees during the baseball season</li>
         <li>Worked directly with Senior Athletic Director of Championships to coordinate operations for NCAA Sponsored Events</li>
       </ul>
-     </div><!--/span-->
+    </div><!--/span-->
+    <div>
+      <h4><i class="fa fa-suitcase"></i> Bellarmine College Preparatory - Community Service Counsler</h4>
+      <h5><i class="fa fa-calendar-o"></i> August 2008 - June 2009</h5>
+      <p>One year position at private high school monitoring the community service projects of students.  Proficient in MS office suite software (Word, Excel, Powerpoint, Access). Duties included monitoring service hours, identifying and aassigning volunteer oppotunitunities and reporting student activities to school personal.</p>
+    </div>
   </div> <!-- endMainContent -->
 </div> <!-- endWholeContent -->
 <footer class="row">
