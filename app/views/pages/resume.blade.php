@@ -51,11 +51,11 @@
     <div>
       <div>
         <h4><i class="fa fa-graduation-cap"></i> Codeup - Web Development, <em>San Antonio, TX</em></h4>
-        <p>Completed a 12 week bootcamp to develop skills in the following programming languages. HTML, CSS, Javascript, JQuery, PHP, Laravel, Twitter Bootstrap. I have a great fundamental ability as both a front-end and backend developer.  More importantly the ability to learn languages quickly and if there's something I don't know then I can teach my self that lesson without much guidance.</p>
+        <p>Completed a 12 week bootcamp to develop skills in the following programming languages. HTML, CSS, Javascript, JQuery, PHP, Laravel, Twitter Bootstrap. I have a great fundamental ability as both a front-end and backend developer.  More importantly the ability to learn languages quickly and if there's something I don't know then I can teach myself that lesson without much guidance.</p>
       </div><!--endRow-->
       <div>
         <h4><i class="fa fa-graduation-cap"></i> Hampton University - BS Marketing, <em>Hampton, VA</em></h4>
-        <p>At Hampton, I graduated with honors with a degree in Marketing. I also was a two-sport Athlete who competed on the  Men's Track and Field and Basketball teams.</p>
+        <p>At Hampton, I graduated with honors with a degree in Marketing. I also was a two-sport athlete who competed on the  Men's Track and Field and Basketball teams.</p>
       </div><!--endRow-->
     </div>
 
@@ -98,7 +98,7 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Medtronic - Inside Sales Rep</h4>
       <h5><i class="fa fa-calendar-o"></i> July 2012 - December 2013</h5>
-        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for Diabete patients. I worked closely with our external field rep to support client oppotunities. Position involved verbal and written communication with medical offices for processing new sales of medical devices.</p>
+        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for diabetes patients. I worked closely with our external field rep to support client oppotunities. Position involved verbal and written communication with medical offices for processing new sales of medical devices.</p>
         <ul>
           <li>Responsible for $100,000+ in revenue per month for insulin pump sales</li>
           <li>Achieved sales goal Months w/Over 100% New Patients Conversion Rate</li>
@@ -120,7 +120,7 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Bellarmine College Preparatory - Community Service Counselor</h4>
       <h5><i class="fa fa-calendar-o"></i> August 2008 - June 2009</h5>
-      <p>One year position at private high school monitoring the community service projects of students.  Proficient in MS office suite software (Word, Excel, Powerpoint, Access). Duties included monitoring service hours, identifying and aassigning volunteer oppotunitunities and reporting student activities to school personnel.</p>
+      <p>One year position at private high school monitoring the community service projects of students.  Proficient in MS Office suite software (Word, Excel, Powerpoint, Access). Duties included monitoring service hours, identifying and assigning volunteer opportunities and reporting student activities to school personnel.</p>
     </div>
 
     <!---------- Extra Curriculars ---------->
@@ -133,8 +133,8 @@
       <p>It is a personal commitment of mine to volunteer my time and resources to help those less fortunate when possible.</p>
       <h5>Through Sports</h5>
       <ul>
-        <li>Participated in several Missionary Excursions to the Phillipines</li>
-        <li>Engaged in Outreach Prison Ministry at San Quention Correctional Facility in San Rafael, CA</li>
+        <li>Participated in several Missionary Excursions to the Philippines</li>
+        <li>Engaged in Outreach Prison Ministry at San Quenton Correctional Facility in San Rafael, CA</li>
         <li>Coached high school basketball teams for several organizations</li>
       </ul>
       <h5>Through Education</h5>

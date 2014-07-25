@@ -6,7 +6,7 @@
 	<h5>by: {{{ $post->user->first_name }}} {{{ $post->user->last_name }}}</h5>
 	<p>{{{ $post->created_at->format('l, F jS Y @ h:i:s A') }}}</p>
 	@if($post->img_path)
-		<img src="{{ $post->img_path }}" class="">
+		<img src="" class="">
 	@endif
 	<p>{{ $post->renderBody() }}</p>
 	<div "row">
