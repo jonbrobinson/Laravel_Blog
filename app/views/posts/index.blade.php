@@ -42,7 +42,7 @@
 			<p>By: {{{ $post->user->first_name }}} {{{ $post->user->last_name }}}</p>
 			<p><i class="fa fa-clock-o"></i> <strong>Posted on {{{ $post->created_at->format('l, F jS Y @ h:i:s A') }}}</strong></p>
 			@if($post->img_path)
-				<img src="{{ $post->img_path }}" class="">
+				<img src="{{ $post->img_path }}" class="img-responsive">
 			@endif
 			<p>{{ (str_limit($post->renderBody(), $limit = 300, $end = '...')) }}</p>
 			<a href="{{ action('PostsController@show', $post->slug) }}" class=" btn  btn-primary">Read More</a>
