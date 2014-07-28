@@ -9,6 +9,11 @@ class Post extends BaseModel {
 
     //=========Validation rules for our model
 
+    static public $rules = [
+    	'title' => 'required|max:100',
+    	'body' => 'required'
+    ];
+
     public function user()
 	{
 	    return $this->belongsTo('User');
