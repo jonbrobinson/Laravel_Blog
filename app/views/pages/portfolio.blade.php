@@ -207,13 +207,13 @@
                 </div>
 
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/comingsoon.png" class="grayscale" alt="">
+                        <img src="/afolique/theme/img/portofolio1/blog_screen_shot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
                              This is a personal blog I created using PHP, Laravel, and MySQL.  Simple blog to give little more insight into my journeys as a developer.
                         </p>
                         <p>
-                            <a href="#" class="minibutton">view project</a>
+                            <a href="/posts" class="minibutton">view project</a>
                         </p>
                     </div>
                 </div>
