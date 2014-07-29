@@ -98,7 +98,7 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Medtronic - Inside Sales Rep</h4>
       <h5><i class="fa fa-calendar-o"></i> July 2012 - December 2013</h5>
-        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for diabetes patients. I worked closely with our external field rep to support client opportunities. Position involved verbal and written communication with medical offices for processing new sales of medical devices.</p>
+        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for diabetic patients. I worked closely with our external field rep to support client opportunities. Position involved verbal and written communication with medical offices for processing new sales of medical devices.</p>
         <ul>
           <li>Responsible for $100,000+ in revenue per month for insulin pump sales</li>
           <li>Achieved monthly sales goals w/over 100% New Patients Conversion Rate</li>
@@ -134,14 +134,14 @@
       <h5>Through Sports</h5>
       <ul>
         <li>Participated in several Missionary Excursions to the Philippines</li>
-        <li>Engaged in Outreach Prison Ministry at San Quenton Correctional Facility in San Rafael, CA</li>
+        <li>Engaged in Outreach Prison Ministry at San Quentin Correctional Facility in San Rafael, CA</li>
         <li>Coached high school basketball teams for several organizations</li>
       </ul>
       <h5>Through Education</h5>
       <ul>
         <li>Volunteered for several local neighborhood clean up campaigns</li>
         <li>Participated in a weekend immersion examining homeless conditions within the city</li>
-        <li>Managed several large donation drives to collect food and clothes for those less fortunate</li>
+        <li>Managed several large donation drives to collect food and clothing</li>
       </ul>
     </div>
   </div> <!-- endMainContent -->
