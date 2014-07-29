@@ -98,10 +98,10 @@
     <div>
       <h4><i class="fa fa-suitcase"></i> Medtronic - Inside Sales Rep</h4>
       <h5><i class="fa fa-calendar-o"></i> July 2012 - December 2013</h5>
-        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for diabetes patients. I worked closely with our external field rep to support client oppotunities. Position involved verbal and written communication with medical offices for processing new sales of medical devices.</p>
+        <p>Inside Sales Rep responsible for closing sales on our Medical Equipment for diabetes patients. I worked closely with our external field rep to support client opportunities. Position involved verbal and written communication with medical offices for processing new sales of medical devices.</p>
         <ul>
           <li>Responsible for $100,000+ in revenue per month for insulin pump sales</li>
-          <li>Achieved sales goal Months w/Over 100% New Patients Conversion Rate</li>
+          <li>Achieved monthly sales goals w/over 100% New Patients Conversion Rate</li>
           <li>Achieved individual sales goals established by management</li>
         </ul>
     </div>
@@ -112,7 +112,7 @@
       <ul>
         <li>Executes the game day management and operations of Stanford University athletic venue’s for 36 Varsity sports: from baseball- volleyball. Task included: facility set-up, visiting team accomodations, and aftergame clean up.</li>
         <li>Manager of 12 member team to manage and support game day operations for 50,000 capacity football Stadium on Varsity Game days (Ave 40,000 spectators)</li>
-        <li>Selected by Golf department to Set-Up and monitor course during NCAA Hosted tornaments</li>
+        <li>Selected by Golf department to Set-Up and monitor course during NCAA Hosted tournaments</li>
         <li>Selected to supervise a team of 15 employees during the baseball season</li>
         <li>Worked directly with Senior Athletic Director of Championships to coordinate operations for NCAA Sponsored Events</li>
       </ul>
@@ -130,7 +130,7 @@
     </div>
     <div>
       <h4><strong>Volunteer Services</strong></h4>
-      <p>It is a personal commitment of mine to volunteer my time and resources to help those less fortunate when possible.</p>
+      <p>It is a personal commitment to volunteer my time and resources to help those less fortunate when possible.</p>
       <h5>Through Sports</h5>
       <ul>
         <li>Participated in several Missionary Excursions to the Philippines</li>
