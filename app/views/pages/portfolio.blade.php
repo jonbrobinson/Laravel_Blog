@@ -201,7 +201,7 @@
                             Website I built for my Final Project at Codeup.  This Website uses everything I learned while attending class such as Javascript, PHP, MySQL, HTML.
                         </p>
                         <p>
-                            <a href="#" class="minibutton">view project</a>
+                            <a href="http://www.community-helpers.com" class="minibutton">view project</a>
                         </p>
                     </div>
                 </div>
