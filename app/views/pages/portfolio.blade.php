@@ -195,7 +195,7 @@
             <!-- First portofolio simple row-->
             <div class="row-fluid">
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/comingsoon.png" class="grayscale" alt="">
+                        <img src="/afolique/theme/img/portofolio1/helpers_screen_shot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
                             Website I built for my Final Project at Codeup.  This Website uses everything I learned while attending class such as Javascript, PHP, MySQL, HTML.
