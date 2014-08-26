@@ -355,7 +355,7 @@
 <script src="/afolique/theme/js/jquery.nivo.slider.pack.js"></script>
 <script src="/afolique/theme/js/jquery.isotope.min.js"></script>
 <script src="/afolique/theme/js/bootstrap-alert.js"></script>
-<script src="/afolique/theme/js/formvalidation.js"></script>
+<!-- <script src="/afolique/theme/js/formvalidation.js"></script> -->
 <script src="/afolique/theme/js/smoothscroll.js"></script>
 <script src="/afolique/theme/js/html5placeholder.jquery.js"></script>
 </body>
