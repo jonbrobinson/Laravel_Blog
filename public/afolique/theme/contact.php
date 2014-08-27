@@ -11,9 +11,9 @@ $domain = "sandboxd0f6cb698a59404ab912146e1111eb38.mailgun.org";
 //Retrieve form data.
 //GET - user submitted data using AJAX
 //POST - in case user does not support javascript, we'll use POST instead
-$name = (isset($_GET['name'])) ? $_GET['name'] : $_POST['name'];
-$email = (isset($_GET['email'])) ?$_GET['email'] : $_POST['email'];
-$comment = (isset($_GET['comment'])) ?$_GET['comment'] : $_POST['comment'];
+$name = ($_GET['name']) ? $_GET['name'] : $_POST['name'];
+$email = ($_GET['email']) ?$_GET['email'] : $_POST['email'];
+$comment = ($_GET['comment']) ?$_GET['comment'] : $_POST['comment'];
 
 //flag to indicate which method it uses. If POST set it to 1
 
