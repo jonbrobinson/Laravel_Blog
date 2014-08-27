@@ -52,10 +52,10 @@ $(document).ready(function() {
 		//start the ajax
 		$.ajax({
 			//this is the php file that processes the data and sends email
-			url: "afolique/theme/contact.php",
+			url: "/afolique/theme/contact.php",
 
 			//GET method is used
-			type: "POST",
+			type: "GET",
 
 			//pass the data
 			data: data,
