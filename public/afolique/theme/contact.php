@@ -84,3 +84,4 @@ function sendmail($to, $subject, $message, $from) {
 	if ($result) return 1;
 	else return 0;
 }
+?>
