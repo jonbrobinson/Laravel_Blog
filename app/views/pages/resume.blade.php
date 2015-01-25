@@ -26,9 +26,9 @@
       </div><!--/bio -->
       <div class="contact">
         <p><i class="fa fa-map-marker"></i> San Antonio, TX</p>
-        <p><i class="fa fa-phone"></i><a href="tel:4082193418"> (408) 219-3418</a></p>
+        <p><i class="fa fa-phone"></i><a href="tel:5122004989"> (512) 200-4989</a></p>
         <p><i class="fa fa-globe"></i><a href="http://www.jonbrobinson.com"> www.jonbrobinson.com</a></p>
-        <p><i class="fa fa-envelope"></i><a href="mailto:jonbrobinson@gmail.com"> jonbrobinson@gmail.com</a></p>
+        <p><i class="fa fa-envelope"></i><a href="mailto:jayrowe86@gmail.com"> jayrowe86@gmail.com</a></p>
         <p><a href="http://www.github.com/jonbrobinson" style="color: black"><i class="fa fa-github fa-2x"></i></a> | <a href="https://www.linkedin.com/in/jonathanbrobinson" style="color: black"><i class="fa fa-linkedin fa-2x"></i></a></p>
       </div><!--/contact -->
     </div> <!-- endWell -->
