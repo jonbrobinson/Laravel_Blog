@@ -101,7 +101,7 @@
                         From the sunny West Coast to the Far East I can honestly say I've been fortunate enough to travel inside and outside of the US.  Currently I'm enjoying South Texas by calling San Antonio home.  I can't say that this is the final landing spot but for now I'm truly enjoying the southwestern appeal.
                     </p>
                     <p>
-                         Not too long ago I made the decision to become a programmer.  I found Codeup as opportunity to get me into the industry and I haven't looked back since.  It's been a couple of months into the program and I have created an awesome website to demonstrate my skills. Hope you enjoy visiting my page.
+                         Not too long ago I made the decision to become a programmer.  Already in my career I have build some great sites and would love to show you my skills. Feel free to look at some of the work I have done. Hope you enjoy visiting my page.
                     </p>
                 </div>
                 <div class="span4">
