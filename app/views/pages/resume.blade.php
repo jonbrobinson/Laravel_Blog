@@ -86,8 +86,18 @@
     <hr />
     </div>
     <div>
+        <h4><i class="fa fa-suitcase"></i> WholeFoods Market</h4>
+        <h5><i class="fa fa-calendar-o"></i> October 2014 - Present</h5>
+        <p>Built an Item Aggregation tool used to filter product info data for third party applications</p>
+        <ul>
+            <li>Built the feature that creates files containing product data from our MongoDB and imports the files via Curl Commands to a third party application called Salsify via their API.</li>
+            <li>Using the symphony framework I built a bundle for to hold my services and unit tested all class methods with PHPUnit.</li>
+            <li>Used Git and Bitbucket for version control, JIRA for project tracking, and confluence for product and team documents.</li>
+        </ul>
+    </div>
+    <div>
       <h4><i class="fa fa-suitcase"></i> Freelance Web Developer</h4>
-      <h5><i class="fa fa-calendar-o"></i> May 2014</h5>
+      <h5><i class="fa fa-calendar-o"></i> May 2014 - Present</h5>
       <p>I completed several projects for work application and personal development</p>
       <ul>
         <li>Built a Personal Blog using Laravel Framework, MySQL and Styled Using Twitter Bootstrap</li>
