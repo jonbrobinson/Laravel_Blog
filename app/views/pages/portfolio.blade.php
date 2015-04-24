@@ -234,13 +234,13 @@
             <!-- Second portofolio simple row-->
             <div class="row-fluid">
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/popshotscreenshot.png" class="grayscale" alt="">
+                        <img src="/afolique/theme/img/portofolio1/coinsation_screen_shot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            Michael Jordan inspired Pop - A - Shot game created using Javascript, JQuery, HTML, and CSS.  Nothing complicated but a game to demonstrate basic skills.
+                            I reformatted a client site to sell coin displays from a twitter bootstrap template and added Social Links to improve SEO as well as increase page views.
                         </p>
                         <p>
-                            <a href="/popshot" class="minibutton">view project</a>
+                            <a href="http://www.coinsation.com" class="minibutton">view project</a>
                         </p>
                     </div>
                 </div>
