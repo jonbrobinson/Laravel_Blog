@@ -30,7 +30,7 @@ $errors = '';
 if (!$errors) {
 
 	//recipient - replace your email here
-	$to = 'jonbrobinson@gmail.com';
+	$to = 'jayrowe86@gmail.com';
 	//sender - from the form
 	$from = $name . ' <' . $email . '>';
 
