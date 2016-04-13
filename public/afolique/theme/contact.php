@@ -6,7 +6,7 @@ use Mailgun\Mailgun;
 
 // Instantiate the client.
 $mgClient = new Mailgun('key-d01b6d0615061c7b4548d2feaa874ea5');
-$domain = "sandboxd0f6cb698a59404ab912146e1111eb38.mailgun.org";
+$domain = "jonbrobinson.com";
 
 //Retrieve form data.
 //GET - user submitted data using AJAX
