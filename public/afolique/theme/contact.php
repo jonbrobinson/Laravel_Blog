@@ -66,7 +66,7 @@ if (!$errors) {
 function sendmail($to, $subject, $message, $from) {
 
 	$mgClient = new Mailgun('key-d01b6d0615061c7b4548d2feaa874ea5');
-	$domain = "sandboxd0f6cb698a59404ab912146e1111eb38.mailgun.org";
+	$domain = "jonbrobinson.com";
 
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
