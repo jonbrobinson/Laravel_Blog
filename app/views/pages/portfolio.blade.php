@@ -195,7 +195,7 @@
             <!-- First portofolio simple row-->
             <div class="row-fluid">
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/helpers_screen_shot.png" class="grayscale" alt="">
+                        <img src="/afolique/theme/img/portofolio1/aaulyphome.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
                             Website I built for my Final Project at Codeup.  This Website uses everything I learned while attending class such as Javascript, PHP, MySQL, HTML.
@@ -207,7 +207,7 @@
                 </div>
 
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/blog_screen_shot.png" class="grayscale" alt="">
+                        <img src="/afolique/theme/img/portofolio1/katinaandted.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
                              This is a personal blog I created using PHP, Laravel, and MySQL.  Simple blog to give little more insight into my journeys as a developer.
@@ -219,7 +219,7 @@
                 </div>
 
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/homesitescreenshot.png" class="grayscale" alt="">
+                        <img src="/afolique/theme/img/portofolio1/ypweekend.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
                             My personal landing page. I used HTML, CSS, Twitter Bootstrap, AJAX, Javascript, PHP to build this site and wanted to display some coding skill sets.
@@ -258,16 +258,17 @@
                 </div>
 
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/atbjonb.png" class="grayscale" alt="">
+                    <img src="/afolique/theme/img/portofolio1/helpers_screen_shot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            A short blog project I did for a little self discovery, develop some of my writing skills, and exploration around some scenic views in the bay area.
+                            Website I built for my Final Project at Codeup.  This Website uses everything I learned while attending class such as Javascript, PHP, MySQL, HTML.
                         </p>
                         <p>
-                            <a href="http://www.atbjonb.tumblr.com" class="minibutton">view project</a>
+                            <a href="http://www.community-helpers.com" class="minibutton">view project</a>
                         </p>
                     </div>
                 </div>
+
             </div>
             </section>
             <div class="pagebreak">
