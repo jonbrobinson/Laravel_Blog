@@ -49,8 +49,8 @@
                     <li><a class="portofolio" href="#projects">Projects</a></li>
                     <li class="description">What I've Done</li>
 
-                    <li><a class="portofolio" href="/posts">Blog</a></li>
-                    <li class="description">Code Life</li>
+                    {{--<li><a class="portofolio" href="/posts">Blog</a></li>--}}
+                    {{--<li class="description">Code Life</li>--}}
 
                     <li><a class="portofolio" href="/resume">Resume</a></li>
                     <li class="description">Professional Life</li>
@@ -130,7 +130,7 @@
                 <div class="span4">
                     <h2>My Experience</h2>
                     <p>
-                         I am new to web development but more than prepared to help you solve some problems.  From my portfolio you can see some of the projects I have worked and I can't wait to show you more.
+                         From quick one page event websites to large enterprise solutions I am more than prepared to help you build your solution.  From my portfolio you can see some of the projects I have worked and I can't wait to show you more.
                     </p>
                     <p class="fancystyle">
                          Enthusiastic
@@ -154,13 +154,13 @@
                 <div class="span6">
                     <span class="servicetitle">Web Development</span>
                     <p>
-                        I have a great fundamental ability as both a front-end and back-end developer. I am still learning but  I like to deconstruct my problems when I come across them and thats really the best way I learn. What sets me apart from others is that I have learned several languages quickly and if there's something I don't know then I know how to ask questions, analyze my stumbling, and find a solution without much guidance.
+                        I have a great fundamental ability as both a front-end and back-end developer. I like to deconstruct my problems when I come across them and that's really the best way I learn. What sets me apart from others is that I have learned several languages quickly and if there's something I don't know then I know how to ask questions, analyze my stumbling, and find a solution without much guidance.
                     </p>
                 </div>
                 <div class="span6">
                     <span class="servicetitle grey">Sales</span>
                     <p>
-                        Before web development, I was building my career as a sales rep. My job was to contact potential clients, assess their needs and provide the appropiate medical equipment. My position helped me develop written and verbal communication skills, critical thinking, and decision making abilities. These were necessary skills to help the company meet its monthy and annual sales goals.
+                        Before web development, I was building my career as a sales rep. My job was to contact potential clients, assess their needs and provide the appropriate medical equipment. My position helped me develop written and verbal communication skills, critical thinking, and decision making abilities. These were necessary skills to help the company meet its monthy and annual sales goals.
                     </p>
                 </div>
             </div>
