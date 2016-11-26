@@ -207,7 +207,7 @@
                 </div>
 
                 <div class="span4 portof">
-                        <img src="/afolique/theme/img/portofolio1/katinaandted.png" class="grayscale" alt="">
+                        <img src="/afolique/theme/img/portofolio1/katinaandtedhome.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
                              This is a personal blog I created using PHP, Laravel, and MySQL.  Simple blog to give little more insight into my journeys as a developer.
