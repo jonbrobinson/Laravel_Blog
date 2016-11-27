@@ -238,7 +238,7 @@
                         <img src="/afolique/theme/img/portofolio1/coinsation_screen_shot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            I reformatted a client site to sell coin displays from a twitter bootstrap template and added Social Links to improve SEO as well as increase page views.
+                            I built a client site to sell coin displays from a template and added Social Links to improve SEO as well as increase page views. Features include contact form and easy click to buy buttons.
                         </p>
                         <p>
                             <a href="http://www.coinsation.com" class="minibutton">view project</a>
@@ -262,7 +262,7 @@
                     <img src="/afolique/theme/img/portofolio1/helpers_screen_shot.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            Website I built for my Final Project at Codeup.  This Website uses everything I learned while attending class such as Javascript, PHP, MySQL, HTML.
+                            Demo Website I built shoecase a membership type site with user relationships.  This Website uses everything I learned in my early years of development attending class such as Javascript, PHP, MySQL, HTML.
                         </p>
                         <p>
                             <a href="http://www.community-helpers.com" class="minibutton">view project</a>
