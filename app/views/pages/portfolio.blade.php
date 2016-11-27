@@ -9,6 +9,7 @@
 <!-- Styles -->
 <link href="/afolique/theme/css/style.css" rel="stylesheet">
 <link href="/afolique/theme/css/style-responsive.css" rel="stylesheet">
+<link href="/css/custom.css" rel="stylesheet">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- HTML5 for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -296,6 +297,13 @@
                         <form method="post" action="/afolique/theme/contact.php" id="contactform">
                             <table>
                             <tbody>
+                            <tr class="element">
+                                <td class="noborder">
+                                </td>
+                                <td class="noborder">
+                                    <input id="website" name="website" type="text" value=""/>
+                                </td>
+                            </tr>
                             <tr class="element">
                                 <td class="noborder">
                                 </td>

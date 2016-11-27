@@ -6,9 +6,16 @@ $(document).ready(function() {
 		//Get the data from all the fields
 		var name = $('input[name=name]');
 		var email = $('input[name=email]');
+		var website = $('input[name=website]');
 		var regx = /^([a-z0-9_\-\.])+\@([a-z0-9_\-\.])+\.([a-z]{2,4})$/i;
 		var comment = $('textarea[name=comment]');
 		var returnError = false;
+
+		//HP Validation
+		if (website.val().length > 0) {
+			website.addClass('error');
+			returnError = true;
+		} else name.removeClass('error');
 
 		//Simple validation to make sure user entered something
 		//Add your own error checking here with JS, but also do some error checking with PHP.
