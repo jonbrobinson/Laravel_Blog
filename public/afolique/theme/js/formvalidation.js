@@ -11,8 +11,10 @@ $(document).ready(function() {
 		var comment = $('textarea[name=comment]');
 		var returnError = false;
 
+        console.log("HP Validation\n");
 		//HP Validation
 		if (website.val().length > 0) {
+            console.log("website value: "+website.val());
 			website.addClass('error');
 			returnError = true;
 		} else name.removeClass('error');

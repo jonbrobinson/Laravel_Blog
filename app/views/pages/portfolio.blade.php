@@ -301,7 +301,7 @@
                                 <td class="noborder">
                                 </td>
                                 <td class="noborder">
-                                    <input id="website" name="website" type="text" value=""/>
+                                    <input id="website" name="website" type="text" value="This should fail"/>
                                 </td>
                             </tr>
                             <tr class="element">
