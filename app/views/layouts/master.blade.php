@@ -49,10 +49,10 @@
 					<ul class="nav navbar-nav">
 						<li><a href="/">Home</a></li>
 						<li><a href="/resume">Resume</a></li>
-						<li><a href="{{ action('PostsController@index') }}">Blog</a></li>
-						@if(Auth::check())
-						<li><a href="{{ action('PostsController@create') }}">Create Post</a></li>
-						@endif
+						{{--<li><a href="{{ action('PostsController@index') }}">Blog</a></li>--}}
+						{{--@if(Auth::check())--}}
+						{{--<li><a href="{{ action('PostsController@create') }}">Create Post</a></li>--}}
+						{{--@endif--}}
 					</ul>
 				@if(Auth::check())
 					<div class="pull-right"><p class="navbar-text">Welcome {{ Auth::user()->first_name }}{{ link_to_action('HomeController@doLogout', 'Logout', null, array("class" => "btn btn-xs pull-right", "role" => "button")) }}</p></div>

@@ -25,7 +25,7 @@
         <p>Web Developer | Digital Content Creator</p>
       </div><!--/bio -->
       <div class="contact">
-        <p><i class="fa fa-map-marker"></i> San Antonio, TX</p>
+        <p><i class="fa fa-map-marker"></i> Austin, TX</p>
         <p><i class="fa fa-phone"></i><a href="tel:5122004989"> (512) 200-4989</a></p>
         <p><i class="fa fa-globe"></i><a href="http://www.jonbrobinson.com"> www.jonbrobinson.com</a></p>
         <p><i class="fa fa-envelope"></i><a href="mailto:jayrowe86@gmail.com"> jayrowe86@gmail.com</a></p>
@@ -39,7 +39,7 @@
   <div class="col-md-8">
     <div class="row">
       <div class="well">
-      <p>I am a Full Stack Web Developer looking for employment opportunities as a web developer.  My previous employment background includes positions in sales, event management, and community service coordination. I can contribute individually or within a team organizational matrix.</p>
+      <p>I am a Web Developer looking for employment opportunities as a web developer.  My previous employment background includes positions in sales, event management, and community service coordination. I can contribute individually or within a team organizational matrix.</p>
       </div> <!-- endWell -->
     </div> <!-- endRow -->
 
@@ -49,10 +49,10 @@
       <hr />
     </div>
     <div>
-      <div>
-        <h4><i class="fa fa-graduation-cap"></i> Codeup - Web Development, <em>San Antonio, TX</em></h4>
-        <p>Completed a 12 week bootcamp to develop skills in the following programming languages. HTML, CSS, Javascript, JQuery, PHP, Laravel, Twitter Bootstrap. I have a great fundamental ability as both a front-end and backend developer.  More importantly the ability to learn languages quickly and if there's something I don't know then I can teach myself that lesson without much guidance.</p>
-      </div><!--endRow-->
+      {{--<div>--}}
+        {{--<h4><i class="fa fa-graduation-cap"></i> Codeup - Web Development, <em>San Antonio, TX</em></h4>--}}
+        {{--<p>Completed a 12 week bootcamp to develop skills in the following programming languages. HTML, CSS, Javascript, JQuery, PHP, Laravel, Twitter Bootstrap. I have a great fundamental ability as both a front-end and backend developer.  More importantly the ability to learn languages quickly and if there's something I don't know then I can teach myself that lesson without much guidance.</p>--}}
+      {{--</div><!--endRow-->--}}
       <div>
         <h4><i class="fa fa-graduation-cap"></i> Hampton University - BS Marketing, <em>Hampton, VA</em></h4>
         <p>At Hampton, I graduated with honors with a degree in Marketing. I also was a two-sport athlete who competed on the  Men's Track and Field and Basketball teams.</p>
@@ -69,12 +69,13 @@
         <h4><i class="fa fa-laptop"></i> Full Stack Developer - LAMP (Linux, Apache, MySql, PHP) Stack</h4>
         <p>I have learned several languages</p>
         <ul>
-          <li>PHP/Laravel</li>
+          <li>PHP</li>
+          <li>Symfony</li>
+          <li>Laravel</li>
           <li>Javascript/JQuery</li>
-          <li>HTML</li>
-          <li>CSS</li>
           <li>MySQL</li>
-          <li>Twitter Bootstrap</li>
+          <li>MongoDB</li>
+          <li>React | React-Native</li>
         </ul>
 
       </div><!--/span-->
@@ -91,8 +92,8 @@
         <p>Built an Item Aggregation tool used to filter product info data for third party applications</p>
         <ul>
             <li>Built the feature that creates files containing product data from our MongoDB and imports the files via Curl Commands to a third party application called Salsify via their API.</li>
-            <li>Using the symphony framework I built a bundle for to hold my services and unit tested all class methods with PHPUnit.</li>
-            <li>Used Git and Bitbucket for version control, JIRA for project tracking, and confluence for product and team documents.</li>
+            <li>Built feature library on top of monolog to apply mininum log levels to </li>
+            <li>Reduced QA Validation testing process from 2 hours to 15 minutes by building an automation feature to improve validation process integrity</li>
         </ul>
     </div>
     <div>
@@ -100,9 +101,9 @@
       <h5><i class="fa fa-calendar-o"></i> May 2014 - Present</h5>
       <p>I completed several projects for work application and personal development</p>
       <ul>
-        <li>Built a Personal Blog using Laravel Framework, MySQL and Styled Using Twitter Bootstrap</li>
-        <li>Worked on a 3 member team to build a Website to provide Jobs for middle school and high school students.  Used HTML, CSS, Javascript, Laravel, MySQL, Twitter Bootstrap</li>
-        <li>Created a Pop-A-Shot game using HTML, CSS, Javascript, JQuery</li>
+        <li>Integrated facebook API reads to deliver current information to website pages | <a href="https://aaulyp.org">aaulyp.org</a></li>
+        <li>Built an event conference site in less than a week to deliver conference details to future attendees and added api integrations to track sales of tickets purchased | <a href="https://aaulyp.org/ypweekend2016">Texas YP Weekend</a></li>
+        <li>Built a wedding site with custom integrations of google maps and email api to deliver RSVP responses | <a href="http://katinaandted.com">katinaandted.com</a></li>
       </ul>
     </div>
     <div>
