@@ -198,10 +198,10 @@
                         <img src="/afolique/theme/img/portofolio1/aaulyphome.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            Website I built for my Final Project at Codeup.  This Website uses everything I learned while attending class such as Javascript, PHP, MySQL, HTML.
+                            I built a functional website for a non-profit organization to improve their digital presence and added functionality for non technical contributors to update.
                         </p>
                         <p>
-                            <a href="http://www.community-helpers.com" class="minibutton">view project</a>
+                            <a href="https://aaulyp.org" class="minibutton">view project</a>
                         </p>
                     </div>
                 </div>
@@ -210,10 +210,10 @@
                         <img src="/afolique/theme/img/portofolio1/katinaandtedhome.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                             This is a personal blog I created using PHP, Laravel, and MySQL.  Simple blog to give little more insight into my journeys as a developer.
+                            I built a beautiful one page wedding site for the Bride and Groom to share their special day. Added features include Google Maps, Responsive PayPal Donation Button.
                         </p>
                         <p>
-                            <a href="/posts" class="minibutton">view project</a>
+                            <a href="http://www.katinaandted.com" class="minibutton">view project</a>
                         </p>
                     </div>
                 </div>
@@ -222,10 +222,10 @@
                         <img src="/afolique/theme/img/portofolio1/ypweekend.png" class="grayscale" alt="">
                     <div class="projectdesc">
                         <p>
-                            My personal landing page. I used HTML, CSS, Twitter Bootstrap, AJAX, Javascript, PHP to build this site and wanted to display some coding skill sets.
+                            Built an event one page site for a young professional conference. Site allowed host organization to share and distribute conference information easily and track ticketing information.
                         </p>
                         <p>
-                            <a href="#" class="minibutton">view project</a>
+                            <a href="https://aaulyp.org/ypweekend2016" class="minibutton">view project</a>
                         </p>
                     </div>
                 </div>
