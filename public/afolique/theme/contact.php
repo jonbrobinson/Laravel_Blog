@@ -14,6 +14,7 @@ $domain = "jonbrobinson.com";
 $name = ($_GET['name']) ? $_GET['name'] : $_POST['name'];
 $email = ($_GET['email']) ?$_GET['email'] : $_POST['email'];
 $comment = ($_GET['comment']) ?$_GET['comment'] : $_POST['comment'];
+$website = ($_GET['website']) ?$_GET['website'] : $_POST['website'];
 
 //flag to indicate which method it uses. If POST set it to 1
 
@@ -23,6 +24,8 @@ if ($_POST) $post=1;
 if (!$name) $errors[count($errors)] = 'Please enter your name.';
 if (!$email) $errors[count($errors)] = 'Please enter your email.';
 if (!$comment) $errors[count($errors)] = 'Please enter your comment.';
+if ($website) $errors[count($errors)] = 'No Thank You';
+
 
 $errors = '';
 
