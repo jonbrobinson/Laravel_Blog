@@ -99,7 +99,7 @@
                 <div class="span8">
                     <h1>ABOUT ME</h1>
                     <p>
-                        From the sunny West Coast to the Far East I can honestly say I've been fortunate enough to travel inside and outside of the US.  Currently I'm enjoying South Texas by calling San Antonio home.  I can't say that this is the final landing spot but for now I'm truly enjoying the southwestern appeal.
+                        I enjoy building sites that get your audience the information they need to know and reduce your workload as . I am a back-end developer with a variety of experience.  I have built several websites as personal projects to develop skills and currently work in a corporate environment building applications to aggregate the flow of data.
                     </p>
                     <p>
                          Not too long ago I made the decision to become a programmer.  Already in my career I have build some great sites and would love to show you my skills. Feel free to look at some of the work I have done. Hope you enjoy visiting my page.
